@@ -1,0 +1,6 @@
+[submodule "Engine/vendor/yaml-cpp"]
+	path = Engine/vendor/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp
+[submodule "Engine/vendor/flecs"]
+	path = Engine/vendor/flecs
+	url = https://github.com/SanderMertens/flecs

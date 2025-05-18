@@ -1,0 +1,12 @@
+name = "foo"
+entities = [
+  {
+    components = {
+      Transform = {
+        position = [],
+        rotation = [],
+        scale = []
+      }
+    }
+  }
+]
