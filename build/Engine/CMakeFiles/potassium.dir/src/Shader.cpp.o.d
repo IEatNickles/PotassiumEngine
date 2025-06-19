@@ -2,10 +2,7 @@ Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: \
  /home/jdw/dev/potassium-engine/Engine/src/Shader.cpp \
  /usr/include/stdc-predef.h \
  /home/jdw/dev/potassium-engine/Engine/include/Shader.hpp \
- /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/fwd.hpp \
- /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/qualifier.hpp \
- /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/setup.hpp \
- /usr/include/c++/13/cassert \
+ /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -16,11 +13,7 @@ Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/c++/13/pstl/pstl_config.h /usr/include/assert.h \
- /usr/include/c++/13/cstddef \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/../simd/platform.h \
- /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/pstl/pstl_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -30,7 +23,7 @@ Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/type_traits /usr/include/c++/13/filesystem \
+ /usr/include/c++/13/filesystem \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/fs_fwd.h /usr/include/c++/13/system_error \
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
@@ -44,6 +37,7 @@ Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
@@ -59,6 +53,7 @@ Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/new /usr/include/c++/13/bits/move.h \
+ /usr/include/c++/13/type_traits \
  /usr/include/c++/13/bits/nested_exception.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/char_traits.h /usr/include/c++/13/compare \
  /usr/include/c++/13/concepts /usr/include/c++/13/bits/stl_construct.h \
@@ -132,7 +127,7 @@ Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /usr/include/c++/13/bits/memory_resource.h \
+ /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/ranges_util.h /usr/include/c++/13/bits/chrono.h \
@@ -188,6 +183,11 @@ Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: \
  /usr/include/c++/13/bits/align.h \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
+ /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/fwd.hpp \
+ /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/qualifier.hpp \
+ /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/setup.hpp \
+ /usr/include/c++/13/cassert /usr/include/assert.h \
+ /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/../simd/platform.h \
  /home/jdw/dev/potassium-engine/Engine/include/Log.hpp \
  /usr/include/c++/13/format /usr/include/c++/13/array \
  /usr/include/c++/13/charconv /usr/include/c++/13/optional \

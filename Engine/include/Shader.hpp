@@ -1,9 +1,10 @@
 #pragma once
 
-#include "glm/fwd.hpp"
 #include <cstdint>
 #include <filesystem>
 #include <string>
+
+#include "glm/fwd.hpp"
 
 class Shader {
 public:

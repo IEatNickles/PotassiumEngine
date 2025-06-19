@@ -1,41 +1,42 @@
 #pragma once
 
 #include <filesystem>
-#include <flecs.h>
 #include <string>
+
+#include "entt/entt.hpp"
 
 namespace KEngine {
 class ScriptEngine {
 public:
-  using AddComponentFn = void (*)(flecs::world &, std::string, flecs::entity_t);
-  using DrawComponentsFn = void (*)(flecs::world &, flecs::entity_t);
-  using DrawAddComponentFn = void (*)(flecs::world &, flecs::entity_t);
-  using SaveComponentsFn = void (*)(flecs::world const &);
-  using LoadComponentsFn = void (*)(flecs::world &);
+  using AddComponentFn = void (*)(entt::registry &, std::string, entt::entity);
+  using DrawComponentsFn = void (*)(entt::registry &, entt::entity);
+  using DrawAddComponentFn = void (*)(entt::registry &, entt::entity);
+  using SaveComponentsFn = void (*)(entt::registry const &);
+  using LoadComponentsFn = void (*)(entt::registry &);
 
   void init(std::filesystem::path const &script_dl);
-  void add_component(flecs::world &reg, std::string name,
-                     flecs::entity_t entity) {
+  void add_component(entt::registry &reg, std::string name,
+                     entt::entity entity) {
     if (!m_add_component_fn)
       return;
     m_add_component_fn(reg, name, entity);
   }
-  void draw_components(flecs::world &reg, flecs::entity_t entity) const {
+  void draw_components(entt::registry &reg, entt::entity entity) const {
     if (!m_draw_components_fn)
       return;
     m_draw_components_fn(reg, entity);
   }
-  void draw_add_component(flecs::world &reg, flecs::entity_t entity) const {
+  void draw_add_component(entt::registry &reg, entt::entity entity) const {
     if (!m_draw_add_component_fn)
       return;
     m_draw_add_component_fn(reg, entity);
   }
-  void save_components(flecs::world const &reg) const {
+  void save_components(entt::registry const &reg) const {
     if (!m_save_components_fn)
       return;
     m_save_components_fn(reg);
   }
-  void load_components(flecs::world &reg) {
+  void load_components(entt::registry &reg) {
     if (!m_load_components_fn)
       return;
     m_load_components_fn(reg);

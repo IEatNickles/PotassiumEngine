@@ -365,8 +365,6 @@ Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/im
 Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o
 Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/build.make
 Engine/libpotassium.so: Engine/vendor/glfw/src/libglfw3.a
-Engine/libpotassium.so: Engine/vendor/yaml-cpp/libyaml-cppd.a
-Engine/libpotassium.so: Engine/vendor/flecs/libflecs.so
 Engine/libpotassium.so: /usr/lib/x86_64-linux-gnu/librt.a
 Engine/libpotassium.so: /usr/lib/x86_64-linux-gnu/libm.so
 Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/link.txt

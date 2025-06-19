@@ -4,171 +4,16 @@
 Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-engine/Sandbox/src/SandboxApp.cpp \
   /home/jdw/dev/potassium-engine/Engine/include/Application.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/Core.hpp \
+  /home/jdw/dev/potassium-engine/Engine/include/Log.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/Renderer.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/Scene.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/Shader.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/UUID.hpp \
+  /home/jdw/dev/potassium-engine/Engine/include/Version.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/Viewport.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/Window.hpp \
   /home/jdw/dev/potassium-engine/Engine/include/scripting/ScriptEngine.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/entt/include/entt/entt.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/flecs_c.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/log.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_defines.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/allocator.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/block_allocator.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/hashmap.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/map.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/sparse.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/stack_allocator.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/strbuf.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/switch_list.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/vec.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/os_api.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/alerts.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/app.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/c_types.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/component.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/delegate.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/entity.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/entity_view.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/field.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/flecs.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/impl/field.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/impl/iter.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/impl/world.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/iter.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/lifecycle_traits.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/log.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/builder_i.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/entity_view.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/app/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/app/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/app/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/component/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/component/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/entity_view.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/entity_builder.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/entity_builder.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/entity_builder.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/entity_builder.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/entity/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/entity/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/entity/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/enum/entity_view.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/enum/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/enum/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/entity_view.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/id/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/id/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/id/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/entity.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/entity_view.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/world.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/component.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/cursor.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/opaque.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/untyped_component.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/world.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/untyped_component.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/module/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/module/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/node_builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/builder_i.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/builder_i.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/query.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/builder_i.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/rest/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/rest/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/stats/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/stats/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/system_mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/builder.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/builder_i.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/signature.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/builder_i.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/mixin.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/units/decl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/units/impl.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/pair.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/ref.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/table.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/type.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/iterable.inl \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/array.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/enum.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/function_traits.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/iterable.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/string.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/stringstream.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/utils.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/world.hpp \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/doc.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/flecs_cpp.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/http.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/json.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/meta.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/meta_c.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/metrics.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/module.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/os_api_impl.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/pipeline.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/rest.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/script.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/stats.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/system.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/timer.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/units.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/bake_config.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/addons.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_defines.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_flags.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_internals.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_support.h \
-  /home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_types.h \
+  /home/jdw/dev/potassium-engine/Engine/vendor/entt/entt/entt.hpp \
   /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/simd/platform.h \
   /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/qualifier.hpp \
   /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/setup.hpp \
@@ -328,11 +173,14 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x4.hpp \
   /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_float.hpp \
   /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/fwd.hpp \
+  /home/jdw/dev/potassium-engine/Engine/vendor/json/nlohmann/json.hpp \
+  /home/jdw/dev/potassium-engine/Engine/vendor/json/nlohmann/json_fwd.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/any \
   /usr/include/c++/13/array \
   /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
@@ -363,15 +211,20 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/forward_list.h \
+  /usr/include/c++/13/bits/forward_list.tcc \
   /usr/include/c++/13/bits/fs_dir.h \
   /usr/include/c++/13/bits/fs_fwd.h \
   /usr/include/c++/13/bits/fs_ops.h \
   /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/gslice.h \
+  /usr/include/c++/13/bits/gslice_array.h \
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/hashtable.h \
   /usr/include/c++/13/bits/hashtable_policy.h \
+  /usr/include/c++/13/bits/indirect_array.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
@@ -385,6 +238,7 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/bits/locale_facets_nonio.h \
   /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/mask_array.h \
   /usr/include/c++/13/bits/max_size_type.h \
   /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
@@ -411,6 +265,7 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
   /usr/include/c++/13/bits/shared_ptr_base.h \
+  /usr/include/c++/13/bits/slice_array.h \
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
@@ -430,6 +285,7 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
@@ -450,10 +306,15 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/valarray_after.h \
+  /usr/include/c++/13/bits/valarray_array.h \
+  /usr/include/c++/13/bits/valarray_array.tcc \
+  /usr/include/c++/13/bits/valarray_before.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/charconv \
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
@@ -464,6 +325,7 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
   /usr/include/c++/13/ctime \
   /usr/include/c++/13/cwchar \
   /usr/include/c++/13/cwctype \
@@ -479,11 +341,14 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/filesystem \
+  /usr/include/c++/13/format \
+  /usr/include/c++/13/forward_list \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
@@ -493,11 +358,13 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
+  /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ranges \
   /usr/include/c++/13/ratio \
@@ -505,7 +372,6 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/span \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -528,6 +394,8 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/unordered_set \
   /usr/include/c++/13/utility \
+  /usr/include/c++/13/valarray \
+  /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
   /usr/include/ctype.h \
@@ -544,6 +412,7 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/signal.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -592,6 +461,19 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -613,17 +495,24 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
@@ -660,9 +549,9 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/syscall.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
@@ -672,291 +561,309 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+/usr/include/c++/13/bits/shared_ptr_base.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x3.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/syscall.h:
+/usr/include/c++/13/bits/postypes.h:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+/usr/include/c++/13/bits/ranges_algo.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/c++/13/bits/stl_set.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/c++/13/bits/move.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+/usr/include/c++/13/streambuf:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+/usr/include/c++/13/bits/max_size_type.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+/usr/include/c++/13/bits/locale_classes.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x2.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+/usr/include/c++/13/bits/uniform_int_dist.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/syscall.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
-
-/usr/include/x86_64-linux-gnu/asm/unistd.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/wctype.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/wchar.h:
-
-/usr/include/unistd.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float3_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double4_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/field.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double4.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double2_precision.hpp:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/entity_builder.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool3.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/world.hpp:
-
-/usr/include/c++/13/map:
-
-/usr/include/c++/13/string_view:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x4.hpp:
-
-/usr/include/c++/13/bits/stl_construct.h:
+/usr/include/c++/13/bits/iterator_concepts.h:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x3_precision.hpp:
 
 /usr/include/c++/13/new:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp:
+/usr/include/c++/13/bits/refwrap.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp:
+/usr/include/c++/13/bits/gslice.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/opaque.hpp:
+/usr/include/c++/13/bits/indirect_array.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp:
+/usr/include/c++/13/bits/functional_hash.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp:
+/usr/include/c++/13/bits/functexcept.h:
 
-/usr/include/c++/13/bits/ranges_uninitialized.h:
+/usr/include/c++/13/bits/locale_classes.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x2.hpp:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/id/mixin.inl:
+/usr/include/c++/13/bits/fs_ops.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x3.hpp:
+/usr/include/c++/13/bits/ranges_cmp.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x3.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x2.hpp:
+/usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/c++/13/bits/locale_classes.tcc:
+/usr/include/c++/13/bits/fs_fwd.h:
 
-/usr/include/c++/13/bits/uniform_int_dist.h:
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/scalar_int_sized.hpp:
+/usr/include/c++/13/bits/forward_list.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_quat.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/doc.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/c++/13/bits/gslice_array.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/13/set:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/unordered_map:
+
+/usr/include/c++/13/bits/align.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x4.hpp:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/c++/13/algorithm:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/fwd.hpp:
+
+/usr/include/c++/13/tr1/gamma.tcc:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec2.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x4.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x3.hpp:
-
-/usr/include/c++/13/codecvt:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x2.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/vec4.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/compute_vector_relational.hpp:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x4.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x3.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x4.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/_vectorize.hpp:
+
+/usr/include/c++/13/bits/quoted_string.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/vec4.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x2.inl:
+
+/usr/include/c++/13/bit:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool2.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat4x4.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat3x4.hpp:
+
+/usr/include/c++/13/utility:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/vec3.hpp:
 
 /usr/include/c++/13/bits/locale_facets.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x2.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x4.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat4x3.hpp:
 
-/usr/include/c++/13/bits/charconv.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x2.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x3.hpp:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/compute_common.hpp:
+/usr/include/c++/13/bits/concept_check.h:
 
-/usr/include/c++/13/cstdint:
+/usr/include/c++/13/bits/alloc_traits.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/vector_relational.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool4.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/stringstream.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat3x2.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/system_mixin.inl:
+/usr/include/c++/13/bits/fs_dir.h:
 
-/usr/include/c++/13/bits/stl_pair.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int2_sized.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/setup.hpp:
+/usr/include/c++/13/bits/parse_numbers.h:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
+/usr/include/c++/13/tr1/beta_function.tcc:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x2.hpp:
+/usr/include/c++/13/bits/allocator.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/constants.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/qualifier.hpp:
+/usr/include/c++/13/initializer_list:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_geometric.inl:
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/scalar_constants.inl:
+
+/usr/include/c++/13/bits/ranges_base.h:
+
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/scalar_constants.hpp:
+
+/usr/include/c++/13/bits/valarray_after.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x2.hpp:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/usr/include/c++/13/cassert:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_transform.hpp:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_projection.inl:
+
+/usr/include/c++/13/bits/ranges_uninitialized.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x2_precision.hpp:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_clip_space.hpp:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_float.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x4_precision.hpp:
+
+/usr/include/c++/13/bits/codecvt.h:
+
+/home/jdw/dev/potassium-engine/Engine/include/Core.hpp:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x3.hpp:
+
+/usr/include/c++/13/bits/ranges_util.h:
+
+/usr/include/c++/13/any:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_quat.inl:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x4.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool4_precision.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/compute_vector_decl.hpp:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/c++/13/iterator:
+
+/usr/include/assert.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double2.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_relational.inl:
+
+/usr/include/c++/13/bits/mask_array.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec4.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat3x3.hpp:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/scalar_int_sized.hpp:
+
+/usr/include/alloca.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_relational.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/matrix_transform.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec3.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x2_precision.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x2.inl:
+
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
+
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x4.inl:
+
+/usr/include/c++/13/bits/ranges_algobase.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/trigonometric.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/include/scripting/ScriptEngine.hpp:
+
+/usr/include/c++/13/bits/std_mutex.h:
+
+/home/jdw/dev/potassium-engine/Engine/include/Version.hpp:
+
+/usr/include/c++/13/bits/atomic_wait.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x3.hpp:
+
+/usr/include/c++/13/bits/localefwd.h:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/simd/platform.h:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_float.hpp:
 
-/usr/include/c++/13/bits/localefwd.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_types.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float4.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_flags.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/component/impl.hpp:
+/usr/include/c++/13/cstdint:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec1.inl:
 
@@ -964,291 +871,299 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/c++/13/bits/stl_function.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/units.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
-/usr/include/c++/13/algorithm:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/geometric.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool2.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x3.inl:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/builder.hpp:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/timer.h:
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/system.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double3_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_clip_space.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/os_api_impl.h:
-
-/home/jdw/dev/potassium-engine/Engine/include/Viewport.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/setup.hpp:
 
 /usr/include/c++/13/bits/node_handle.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x2.hpp:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x4.hpp:
+/usr/include/c++/13/bits/forward_list.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/matrix.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_support.h:
+/usr/include/c++/13/istream:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/module.h:
+/home/jdw/dev/potassium-engine/Engine/include/Renderer.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/json.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x3_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool4_precision.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double2_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/flecs_cpp.h:
+/usr/include/c++/13/bits/stl_algo.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float4_precision.hpp:
+/usr/include/c++/13/iostream:
+
+/usr/include/asm-generic/errno.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float2.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/include/UUID.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x2.inl:
+
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_geometric.inl:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/qualifier.hpp:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp:
+
+/usr/include/c++/13/bits/locale_conv.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int4_sized.hpp:
+
+/usr/include/c++/13/bits/stl_multiset.h:
 
 /home/jdw/dev/potassium-engine/Engine/include/Application.hpp:
 
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float4_precision.hpp:
+
 /usr/include/c++/13/bits/exception_defines.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x3.inl:
+/usr/include/c++/13/bits/exception_ptr.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/meta.h:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/utils.hpp:
+/usr/include/c++/13/bits/chrono.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/entity_builder.inl:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/_fixes.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/string.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_projection.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/alerts.h:
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/iterable.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/rest.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x2.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/impl.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/c++/13/bits/fs_ops.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_trigonometric.inl:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/type.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/vec2.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x4.hpp:
+/usr/include/c++/13/bits/utility.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/decl.hpp:
+/usr/include/c++/13/bits/stl_uninitialized.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/decl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/vector_relational.hpp:
 
-/usr/include/c++/13/bits/align.h:
+/home/jdw/dev/potassium-engine/Engine/include/Window.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/table.hpp:
+/usr/include/c++/13/array:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/matrix_transform.inl:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/common.hpp:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec3.inl:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/scalar_uint_sized.hpp:
 
 /usr/include/stdlib.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/ref.hpp:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/pair.hpp:
+/home/jdw/dev/potassium-engine/Sandbox/src/SandboxApp.cpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/decl.hpp:
+/usr/include/c++/13/bits/slice_array.h:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x3.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/builder_i.hpp:
+/usr/include/c++/13/codecvt:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/entity_builder.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat4x4.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/13/deque:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/id/impl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/world.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/entity/builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/c++/13/locale:
-
-/usr/include/c++/13/bits/stl_map.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/mixin.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_relational.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool4.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/app/mixin.inl:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/flecs.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/component/mixin.inl:
-
-/usr/include/c++/13/bits/stl_multiset.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/entity_view.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/builder.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool3_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/include/scripting/ScriptEngine.hpp:
-
-/usr/include/c++/13/bits/std_mutex.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/entity_builder.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x3.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/enum/entity_view.inl:
-
-/usr/include/c++/13/bits/vector.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/builder_i.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/decl.hpp:
-
-/usr/include/alloca.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/metrics.h:
-
-/home/jdw/dev/potassium-engine/Engine/include/Window.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/13/ios:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/entity_view.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float3.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/constants.inl:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x4.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/constants.inl:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float3.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/include/Log.hpp:
 
 /usr/include/c++/13/bits/stl_iterator.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x3.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/rest/impl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool3.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/delegate.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_transform.inl:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/mixin.inl:
+/usr/include/c++/13/bits/range_access.h:
 
-/usr/include/c++/13/bits/stl_relops.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x3.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/stack_allocator.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint2_sized.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/c++/13/compare:
 
-/usr/include/c++/13/bits/basic_string.tcc:
+/usr/include/c++/13/bits/ostream_insert.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_geometric.hpp:
+/usr/include/c++/13/system_error:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x4_precision.hpp:
+/usr/include/c++/13/bits/deque.tcc:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/mixin.inl:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x2.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/units/decl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x4.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/impl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/entt/entt/entt.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/include/UUID.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x4_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/decl.hpp:
+/usr/include/c++/13/map:
 
-/usr/include/c++/13/ratio:
+/usr/include/c++/13/string_view:
 
-/usr/include/linux/limits.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x4.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_defines.h:
+/usr/include/c++/13/bits/stl_construct.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/sparse.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x4.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/log.hpp:
+/usr/include/c++/13/bits/fs_path.h:
 
-/usr/include/c++/13/bits/stream_iterator.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_clip_space.inl:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/impl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/exponential.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/array.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x2.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/decl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
 
-/usr/include/c++/13/unordered_map:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/impl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x3.inl:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/strbuf.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint3_sized.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/mixin.inl:
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_common.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/include/Scene.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_exponential.inl:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool2_precision.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool3_precision.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat2x2.hpp:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_matrix.inl:
 
 /usr/include/c++/13/cstddef:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/mixin.inl:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double3_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/common.hpp:
+/usr/include/c++/13/bits/valarray_before.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/impl.hpp:
+/usr/include/c++/13/backward/binders.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/os_api.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double4.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x4_precision.hpp:
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/log.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/trigonometric.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double4_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/decl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float2_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/endian.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/app.h:
+/usr/include/stdint.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/function_traits.hpp:
+/usr/include/c++/13/bits/stl_heap.h:
 
-/usr/include/c++/13/bits/functional_hash.h:
+/usr/include/syscall.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/impl/field.hpp:
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float3_precision.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/impl.hpp:
+/usr/include/c++/13/bits/valarray_array.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/entity.inl:
+/usr/include/c++/13/bits/valarray_array.tcc:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/app/decl.hpp:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x3.inl:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/entt/include/entt/entt.hpp:
+/usr/include/c++/13/bits/vector.tcc:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/stats.h:
+/usr/include/c++/13/optional:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float4.hpp:
+
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_geometric.hpp:
 
 /usr/include/c++/13/bits/hash_bytes.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/entity_view.inl:
+/home/jdw/dev/potassium-engine/Engine/vendor/json/nlohmann/json_fwd.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x4.inl:
+/home/jdw/dev/potassium-engine/Engine/include/Shader.hpp:
 
-/usr/include/c++/13/bits/ranges_algobase.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec1.hpp:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/decl.hpp:
+/usr/include/c++/13/memory:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int3_sized.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x4.inl:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int4.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_geometric.inl:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x3.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint3.hpp:
+
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint4_sized.hpp:
 
 /usr/include/c++/13/ctime:
 
@@ -1258,563 +1173,25 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/c++/13/span:
 
-/usr/include/c++/13/bits/max_size_type.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x2.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/mixin.inl:
-
-/usr/include/c++/13/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/13/bits/locale_classes.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/switch_list.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/flecs_c.h:
-
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/13/tr1/hypergeometric.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat4x2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/doc/entity_view.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x3.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_common.inl:
-
-/usr/include/c++/13/unordered_set:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int3_sized.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/home/jdw/dev/potassium-engine/Sandbox/src/SandboxApp.cpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/app/builder.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_trigonometric.inl:
-
-/home/jdw/dev/potassium-engine/Engine/include/Scene.hpp:
-
-/usr/include/c++/13/cwchar:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/map.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/13/tr1/exp_integral.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double3.hpp:
-
-/usr/include/c++/13/tr1/beta_function.tcc:
-
-/usr/include/c++/13/debug/assertions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/entity_view.inl:
-
-/usr/include/c++/13/bits/ranges_base.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/entity.hpp:
-
-/usr/include/c++/13/tr1/ell_integral.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/_fixes.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_projection.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/hashmap.h:
-
-/home/jdw/dev/potassium-engine/Engine/include/Renderer.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/matrix.hpp:
-
-/usr/include/c++/13/istream:
-
-/usr/include/c++/13/optional:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/vec.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/builder_i.hpp:
-
-/usr/include/c++/13/bits/move.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/timer/impl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/entity/mixin.inl:
-
-/usr/include/c++/13/version:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/geometric.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x3.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/enum/impl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/iter.hpp:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/stats/impl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/datastructures/block_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/decl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/enum/mixin.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat3x2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/decl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/mixin.inl:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/include/c++/13/bits/range_access.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double4x3.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint2_sized.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/iterable.inl:
-
-/usr/include/c++/13/streambuf:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/scalar_constants.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint4.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/http.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec1.hpp:
-
-/usr/include/c++/13/memory:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/query.inl:
-
-/home/jdw/dev/potassium-engine/Engine/include/Shader.hpp:
-
-/usr/include/c++/13/tr1/modified_bessel_func.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/id/decl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/fwd.hpp:
-
-/usr/include/c++/13/compare:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/json/world.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/lifecycle_traits.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/cursor.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/mixin.inl:
-
-/usr/include/c++/13/ostream:
-
-/usr/include/time.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_vector_relational.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/impl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_geometric.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/builder.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/component.inl:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat3x4.hpp:
-
-/usr/include/c++/13/utility:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_float2_precision.hpp:
-
-/usr/include/endian.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x3.hpp:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/builder.hpp:
-
-/usr/include/c++/13/bit:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x4_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int4.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/impl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat4x3.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/term/impl.hpp:
-
-/usr/include/locale.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/c_types.hpp:
-
-/usr/include/c++/13/backward/binders.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/signature.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/mixin.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/event/builder.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/metrics/untyped_component.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/module/impl.hpp:
-
-/usr/include/stdint.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/observer/builder.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/pipeline.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/decl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/builder.hpp:
-
-/usr/include/c++/13/ranges:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/builder_i.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x2.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/rest/decl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec3.inl:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x4_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_bool2_precision.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/decl.hpp:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/pipeline/builder_i.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/stats/decl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/impl.hpp:
-
-/usr/include/c++/13/bits/chrono.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/script.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat2x2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/api_internals.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x2.hpp:
-
-/usr/include/c++/13/clocale:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/module/mixin.inl:
-
-/usr/include/c++/13/stdexcept:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint3.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/component.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint3_sized.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint4_sized.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_exponential.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/exponential.hpp:
-
-/usr/include/c++/13/stdlib.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_common.hpp:
-
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int3.hpp:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_common.inl:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_relational.inl:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/mixin.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_relational.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/builder.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_clip_space.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_projection.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_transform.hpp:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_transform.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/scalar_constants.inl:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/entity/impl.hpp:
-
-/usr/include/c++/13/bits/atomic_base.h:
-
-/usr/include/c++/13/bits/allocator.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/constants.hpp:
-
-/usr/include/c++/13/initializer_list:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec3.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/matrix_transform.hpp:
-
-/usr/include/c++/13/tr1/bessel_function.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_quat.inl:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/impl/iter.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat2x3.hpp:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat2x4.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/enum.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat3x2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/script/builder.hpp:
-
-/usr/include/c++/13/bits/utility.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/vec2.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/query/impl.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/_vectorize.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/compute_vector_relational.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/system/decl.hpp:
-
-/usr/include/c++/13/tr1/poly_hermite.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x4.inl:
-
-/usr/include/c++/13/tr1/gamma.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_quat.hpp:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat3x3.hpp:
-
-/usr/include/c++/13/pstl/pstl_config.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_vec4.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/quaternion_float.hpp:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/assert.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/gtc/matrix_transform.inl:
-
-/usr/include/c++/13/array:
-
-/usr/include/c++/13/bits/algorithmfwd.h:
-
-/usr/include/syscall.h:
-
-/usr/include/c++/13/bits/stl_heap.h:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/13/bits/atomic_wait.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/private/addons.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/meta_c.h:
-
-/usr/include/c++/13/bits/basic_string.h:
-
-/usr/include/c++/13/bits/codecvt.h:
-
-/home/jdw/dev/potassium-engine/Engine/include/Core.hpp:
-
-/usr/include/c++/13/bits/stl_tree.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/cassert:
-
-/usr/include/c++/13/bits/deque.tcc:
-
-/usr/include/c++/13/bits/enable_special_members.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/13/bits/erase_if.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/fs_dir.h:
-
-/usr/include/c++/13/bits/fs_fwd.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x4.hpp:
-
-/usr/include/c++/13/bits/fs_path.h:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double2x3_precision.hpp:
-
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/c++/13/bits/ranges_algo.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/compute_vector_decl.hpp:
-
-/usr/include/c++/13/bits/ios_base.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/meta/untyped_component.inl:
-
-/usr/include/c++/13/iterator:
-
-/usr/include/c++/13/bits/istream.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int4_sized.hpp:
-
-/usr/include/c++/13/bits/locale_conv.h:
-
-/usr/include/c++/13/bits/iterator_concepts.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-/usr/include/c++/13/bits/locale_facets_nonio.h:
-
-/usr/include/c++/13/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/13/bits/memoryfwd.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_relational.hpp:
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/c++/13/bits/new_allocator.h:
 
-/usr/include/c++/13/bits/stl_uninitialized.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_relational.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+/usr/include/c++/13/bits/atomic_base.h:
 
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/c++/13/bits/stl_set.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int2_sized.hpp:
-
-/usr/include/c++/13/bits/parse_numbers.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/alerts/builder_i.hpp:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/quoted_string.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat2x3.hpp:
-
-/usr/include/c++/13/bits/ranges_cmp.h:
-
-/usr/include/c++/13/bits/ranges_util.h:
-
-/usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13/set:
+/usr/include/c++/13/variant:
 
 /usr/include/c++/13/bits/specfun.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/mixins/units/impl.hpp:
 
 /usr/include/c++/13/bits/sstream.tcc:
 
@@ -1834,23 +1211,45 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/stdio.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
 /usr/include/c++/13/bits/stl_multimap.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/c++/13/bits/stl_vector.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/13/bits/stl_relops.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/c++/13/bits/stream_iterator.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint2.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/impl/world.hpp:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/c++/13/bits/unique_ptr.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
 /usr/include/c++/13/bits/unordered_map.h:
 
 /usr/include/c++/13/bits/unordered_set.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat2x4.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/c++/13/bits/uses_allocator.h:
 
@@ -1864,15 +1263,19 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/c++/13/climits:
 
-/usr/include/c++/13/cmath:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/c++/13/concepts:
+/usr/include/c++/13/cmath:
 
 /usr/include/limits.h:
 
 /usr/include/c++/13/cstdlib:
 
+/usr/include/c++/13/cwchar:
+
 /usr/include/c++/13/cwctype:
+
+/usr/include/c++/13/debug/assertions.h:
 
 /usr/include/c++/13/bits/stl_list.h:
 
@@ -1884,33 +1287,33 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/c++/13/exception:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/bake_config.h:
-
 /usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/c++/13/pstl/glue_memory_defs.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/13/ext/alloc_traits.h:
 
 /usr/include/c++/13/list:
 
 /usr/include/c++/13/ext/atomicity.h:
 
+/usr/include/c++/13/deque:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
 /usr/include/c++/13/ext/concurrence.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/ext/type_traits.h:
-
 /usr/include/c++/13/filesystem:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/type_mat4x2.hpp:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/c++/13/format:
+
+/usr/include/c++/13/forward_list:
 
 /usr/include/c++/13/functional:
 
@@ -1920,17 +1323,63 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/c++/13/iosfwd:
 
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x2_precision.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
 /usr/include/c++/13/limits:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat4x2.hpp:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/c++/13/numbers:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/13/numeric:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x2.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/usr/include/c++/13/ostream:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
+/usr/include/c++/13/concepts:
+
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/13/ranges:
+
+/usr/include/c++/13/ratio:
+
+/usr/include/linux/limits.h:
+
 /usr/include/c++/13/sstream:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/features.h:
 
 /usr/include/c++/13/string:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_double3.hpp:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
 
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
@@ -1938,33 +1387,177 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/c++/13/tr1/special_function_util.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
 /usr/include/c++/13/typeinfo:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_double3x3.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_common.inl:
+
+/usr/include/c++/13/unordered_set:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/13/valarray:
 
 /usr/include/c++/13/vector:
 
-/usr/include/ctype.h:
+/usr/include/c++/13/version:
 
-/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include/flecs/addons/cpp/utils/node_builder.hpp:
+/usr/include/ctype.h:
 
 /usr/include/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/13/bits/list.tcc:
-
-/usr/include/c++/13/type_traits:
-
-/usr/include/features-time64.h:
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float4x2_precision.hpp:
 
 /usr/include/libintl.h:
 
 /usr/include/linux/close_range.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/string.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/func_vector_relational.inl:
+
+/usr/include/time.h:
+
+/usr/include/c++/13/locale:
+
+/usr/include/c++/13/bits/stl_map.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/mat2x3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/json/nlohmann/json.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/detail/compute_common.hpp:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float3x3_precision.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/sys/syscall.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/syscall.h:
+
+/usr/include/c++/13/ext/type_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_int2.hpp:
 
@@ -1972,10 +1565,86 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: /home/jdw/dev/potassium-eng
 
 /usr/include/math.h:
 
-/usr/include/pthread.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/usr/include/sched.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/string.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/13/bits/list.tcc:
+
+/usr/include/c++/13/type_traits:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/home/jdw/dev/potassium-engine/Engine/include/Viewport.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/c++/13/ios:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/13/charconv:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/c++/13/cstring:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/vector_uint4.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
+
+/usr/include/c++/13/bits/erase_if.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/home/jdw/dev/potassium-engine/Engine/vendor/glm/glm/ext/matrix_float2x3_precision.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:

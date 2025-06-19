@@ -6,11 +6,12 @@
 #include <cstdint>
 #include <cstring>
 #include <fstream>
-#include <glad/glad.h>
 
-#include <glm/ext/matrix_float4x4.hpp>
 #include <iostream>
 #include <sstream>
+
+#include "glad/glad.h"
+#include "glm/ext/matrix_float4x4.hpp"
 
 uint32_t gen_shader(uint32_t type, char const *source) {
   uint32_t shader = glCreateShader(type);

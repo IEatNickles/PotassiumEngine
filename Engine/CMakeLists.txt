@@ -2,10 +2,6 @@ cmake_minimum_required(VERSION 3.8)
 project(potassium LANGUAGES C CXX)
 
 add_subdirectory(vendor/glfw)
-add_subdirectory(vendor/glm)
-add_subdirectory(vendor/yaml-cpp)
-add_subdirectory(vendor/json)
-add_subdirectory(vendor/flecs)
 
 add_compile_definitions(K_API_EXPORT)
 if(WIN32)
@@ -40,25 +36,23 @@ set(SRC
   vendor/imgui/misc/cpp/imgui_stdlib.cpp
 
   vendor/imgui/backends/imgui_impl_opengl3.cpp
-  ./vendor/imgui/backends/imgui_impl_glfw.cpp
+  vendor/imgui/backends/imgui_impl_glfw.cpp
 
   # tinyfiledialogs
   vendor/tinyfiledialogs/tinyfiledialogs.c
 )
 add_library(${PROJECT_NAME} SHARED ${SRC})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC glfw yaml-cpp nlohmann_json flecs)
+target_link_libraries(${PROJECT_NAME} PUBLIC glfw)
 
 target_include_directories(${PROJECT_NAME}
   PUBLIC
   ${CMAKE_SOURCE_DIR}/Engine/include/
 
   ${CMAKE_SOURCE_DIR}/Engine/vendor/glm/
-  ${CMAKE_SOURCE_DIR}/Engine/vendor/entt/include/
-  ${CMAKE_SOURCE_DIR}/Engine/vendor/msgpack/
+  ${CMAKE_SOURCE_DIR}/Engine/vendor/entt/
   ${CMAKE_SOURCE_DIR}/Engine/vendor/imgui/
-  ${CMAKE_SOURCE_DIR}/Engine/vendor/json/include/
-  ${CMAKE_SOURCE_DIR}/Engine/vendor/flecs/include/
+  ${CMAKE_SOURCE_DIR}/Engine/vendor/json/
 
   PRIVATE
   ${CMAKE_SOURCE_DIR}/Engine/vendor/glfw/include/

@@ -1,7 +1,7 @@
 #include "Renderer.hpp"
 #include "glm/gtc/quaternion.hpp"
 
-#include <glad/glad.h>
+#include "glad/glad.h"
 
 Mesh::Mesh() {
   glGenVertexArrays(1, &vao);

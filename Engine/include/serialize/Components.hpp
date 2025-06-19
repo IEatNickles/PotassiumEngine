@@ -1,60 +1,20 @@
+#pragma once
+
 #include "components/Camera.hpp"
 #include "components/MeshRenderer.hpp"
+#include "components/Name.hpp"
+#include "components/Relationship.hpp"
 #include "components/Transform.hpp"
 
 #include "serialize/glm.hpp"
-#include <nlohmann/json.hpp>
 
-template <> struct nlohmann::adl_serializer<TransformComponent> {
-  static void to_json(nlohmann::json &j, TransformComponent const &c) {
-    j["position"] = c.position;
-    j["rotation"] = c.rotation;
-    j["scale"] = c.scale;
-  }
-
-  static void from_json(nlohmann::json const &j, TransformComponent &c) {
-    if (j.contains("position")) {
-      c.position = j["position"].get<glm::vec3>();
-    }
-    if (j.contains("rotation")) {
-      c.rotation = j["rotation"].get<glm::quat>();
-    }
-    if (j.contains("scale")) {
-      c.scale = j["scale"].get<glm::vec3>();
-    }
-  }
-};
-
-template <> struct nlohmann::adl_serializer<CameraComponent> {
-  static void to_json(nlohmann::json &j, CameraComponent const &c) {
-    j["size"] = c.size;
-    j["projection"] = c.projection;
-    j["aspect"] = c.aspect;
-    j["z_near"] = c.z_near;
-    j["z_far"] = c.z_far;
-  }
-
-  static void from_json(nlohmann::json const &j, CameraComponent &c) {
-    if (j.contains("size")) {
-      c.size = j["size"].get<float>();
-    }
-    if (j.contains("projection")) {
-      c.projection = (ProjectionType)j["projection"].get<int>();
-    }
-    if (j.contains("aspect")) {
-      c.aspect = j["aspect"].get<float>();
-    }
-    if (j.contains("z_near")) {
-      c.z_near = j["z_near"].get<float>();
-    }
-    if (j.contains("z_far")) {
-      c.z_far = j["z_far"].get<float>();
-    }
-  }
-};
+#include "nlohmann/json.hpp"
 
 template <> struct nlohmann::adl_serializer<MeshRendererComponent> {
-  static void to_json(nlohmann::json &j, MeshRendererComponent const &c) {}
+  static void to_json(nlohmann::json &j, MeshRendererComponent const &c) {
+    j["mesh"] = "This is a mesh, do not change lest bad things (nothing at "
+                "all) will happen, thank you";
+  }
 
   static void from_json(nlohmann::json const &j, MeshRendererComponent &c) {
     c.mesh =
@@ -62,3 +22,11 @@ template <> struct nlohmann::adl_serializer<MeshRendererComponent> {
              {0, 1, 2});
   }
 };
+
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(RelationshipComponent, child_count, first,
+                                   last, prev, next, parent);
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(NameComponent, name);
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(CameraComponent, projection, size, aspect,
+                                   z_near, z_far, clear_color);
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE(TransformComponent, position, rotation,
+                                   scale);

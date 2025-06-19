@@ -1,32 +1,38 @@
+#include "Version.hpp"
+#define JSON_NOEXCEPTION
+
 #include "Scene.hpp"
 
 #include <cstring>
 #include <filesystem>
-#include <glad/glad.h>
 
 #include <fstream>
 
-#include <GLFW/glfw3.h>
-
 #include <cmath>
 #include <string>
+
+#include "glad/glad.h"
+
+#include "Core.hpp"
 
 #include "Log.hpp"
 #include "Viewport.hpp"
 
 #include "components/Camera.hpp"
 #include "components/MeshRenderer.hpp"
+#include "components/Name.hpp"
+#include "components/Relationship.hpp"
 #include "components/Transform.hpp"
-
-#include "nlohmann/json_fwd.hpp"
-// #include "scripting/ScriptEngine.hpp"
-
-#include <nlohmann/json.hpp>
 
 #include "serialize/Components.hpp"
 
+// #include "scripting/ScriptEngine.hpp"
+
 namespace KEngine {
-Scene::Scene() { create("New Scene"); }
+Scene::Scene() {
+  create("New Scene");
+  m_renderer.init();
+}
 
 void Scene::start() {
   for (auto fn : m_sys_registry.m_fns[(int)SystemType::Start]) {
@@ -58,101 +64,37 @@ void Scene::end() {
   }
 }
 
-struct EnTTJsonArchiveOut {
-  EnTTJsonArchiveOut() { m_root = nlohmann::json::array(); }
-
-  void operator()(std::underlying_type_t<entt::entity> size) {
-    if (!m_curr.empty()) {
-      m_root.push_back(m_curr);
-    }
-    m_curr = nlohmann::json::array();
-    m_curr.push_back(size);
+#define SERIALIZE_COMPONENTS(type, _json)                                      \
+  {                                                                            \
+    auto cs = nlohmann::json::array();                                         \
+    m_ecs.view<type>().each([&cs](entt::entity e, type const &c) {             \
+      cs.push_back(                                                            \
+          nlohmann::json::object({{"entity", (uint64_t)e}, {"data", c}}));     \
+    });                                                                        \
+    _json[#type] = cs;                                                         \
   }
 
-  void operator()(entt::entity e) { m_curr.push_back((uint64_t)e); }
-
-  template <typename T> void operator()(T const &c) { m_curr.push_back(c); }
-
-  void output(std::filesystem::path const &path) {
-    if (!m_curr.empty()) {
-      m_root.push_back(m_curr);
-    }
-
-    std::ofstream ofs(path);
-
-    ofs << m_root.dump(2);
-
-    ofs.close();
+void Scene::save() {
+  if (m_path.empty()) {
+    DEBUG_ERROR("Could not save scene, there is no associated file");
+    return;
   }
 
-  std::string dump(const int indent = -1, const char indent_char = ' ',
-                   const bool ensure_ascii = false,
-                   const nlohmann::detail::error_handler_t error_handler =
-                       nlohmann::detail::error_handler_t::strict) {
-    return m_root.dump(indent, indent_char, ensure_ascii, error_handler);
-  }
-
-  nlohmann::json root() { return m_root; }
-
-private:
-  nlohmann::json m_root;
-  nlohmann::json m_curr;
-};
-
-struct EnTTJsonArchiveIn {
-  EnTTJsonArchiveIn(std::string const &json) {
-    m_root = nlohmann::json::parse(json);
-  }
-
-  EnTTJsonArchiveIn(nlohmann::json const &json) { m_root = json; }
-
-  void next_root() {
-    ++m_root_idx;
-    if (m_root_idx >= m_root.size()) {
-      return;
-    }
-
-    m_curr = m_root[m_root_idx];
-    m_curr_idx = 0;
-  }
-
-  void operator()(std::underlying_type_t<entt::entity> &size) {
-    next_root();
-    int s = m_curr[0].get<int>();
-    ++m_curr_idx;
-    size = (std::underlying_type_t<entt::entity>)s;
-  }
-
-  void operator()(entt::entity &e) {
-    uint64_t id = m_curr[m_curr_idx].get<uint64_t>();
-    e = (entt::entity)id;
-    ++m_curr_idx;
-  }
-
-  template <typename T> void operator()(T &c) {
-    c = m_curr[m_curr_idx].get<T>();
-    ++m_curr_idx;
-  }
-
-private:
-  nlohmann::json m_root;
-  nlohmann::json m_curr;
-
-  int m_root_idx = -1;
-  int m_curr_idx = 0;
-};
+  save(m_path);
+}
 
 void Scene::save(std::filesystem::path const &path) {
-  unsigned short version = K_VERSION;
-
   nlohmann::json j;
-  j["version"] = version;
+  j["version"] = m_version;
 
-  EnTTJsonArchiveOut out_arch;
-  entt::snapshot{m_ecs}.get<TransformComponent>(out_arch).get<CameraComponent>(
-      out_arch);
+  auto es = nlohmann::json::object();
+  SERIALIZE_COMPONENTS(TransformComponent, es);
+  SERIALIZE_COMPONENTS(CameraComponent, es);
+  SERIALIZE_COMPONENTS(RelationshipComponent, es);
+  SERIALIZE_COMPONENTS(NameComponent, es);
+  SERIALIZE_COMPONENTS(MeshRendererComponent, es);
 
-  j["entities"] = out_arch.root();
+  j["entities"] = es;
 
   // m_script_engine.save_components(m_ecs);
 
@@ -161,41 +103,67 @@ void Scene::save(std::filesystem::path const &path) {
   ofs.close();
 }
 
+#define DESERIALIZE_COMPONENTS(type, _json)                                    \
+  if (_json.contains(#type)) {                                                 \
+    auto cs = _json[#type];                                                    \
+    for (auto it : cs) {                                                       \
+      auto e = (entt::entity)it["entity"].get<uint64_t>();                     \
+      if (!m_ecs.valid(e)) {                                                   \
+        e = m_ecs.create(e);                                                   \
+      }                                                                        \
+      m_ecs.emplace<type>(e, it["data"].get<type>());                          \
+    }                                                                          \
+  }
+
 void Scene::load(std::filesystem::path const &path) {
   std::ifstream ifs(path);
   nlohmann::json j;
   ifs >> j;
 
-  if (!j.contains("version")) {
-    DEBUG_ERROR("The scene does not have a version");
-    return;
+  Version file_version = m_version = K_VERSION;
+  m_path = path;
+  m_name = m_path.filename().stem();
+
+  if (j.contains("version")) {
+    file_version = j["version"].get<Version>();
   }
 
-  if (!j.contains("world")) {
-    DEBUG_ERROR("The scene does not have a world");
-    return;
+  if (j.contains("entities")) {
+    auto es = j["entities"];
+    resolve_version(file_version, es);
   }
-
-  m_name = path.filename().stem();
-  m_version = j["version"].get<uint16_t>();
-
-  EnTTJsonArchiveIn in_arch(j["entities"]);
-  entt::snapshot_loader{m_ecs}
-      .get<TransformComponent>(in_arch)
-      .get<CameraComponent>(in_arch);
 
   ifs.close();
 
   m_renderer.init();
 
   m_ecs.on_construct<CameraComponent>()
-      .connect<[](entt::registry &reg, entt::entity e) {
-        reg.emplace<TransformComponent>(e);
-      }>();
+      .connect<&entt::registry::get_or_emplace<TransformComponent>>();
+  m_ecs.on_construct<MeshRendererComponent>()
+      .connect<&entt::registry::get_or_emplace<TransformComponent>>();
+}
+
+void Scene::version_0_0(nlohmann::json &es) {
+  DESERIALIZE_COMPONENTS(TransformComponent, es);
+  DESERIALIZE_COMPONENTS(CameraComponent, es);
+  DESERIALIZE_COMPONENTS(RelationshipComponent, es);
+  DESERIALIZE_COMPONENTS(NameComponent, es);
+  DESERIALIZE_COMPONENTS(MeshRendererComponent, es);
+}
+
+void Scene::resolve_version(Version version, nlohmann::json &es) {
+  if (version == Version(0, 0)) {
+    version_0_0(es);
+  }
 }
 
 void Scene::create(std::string const &name) {
   m_name = name;
-  m_version = K_VERSION;
+  m_version = Version(K_VERSION_MINOR, K_VERSION_MAJOR);
+
+  m_ecs.on_construct<CameraComponent>()
+      .connect<&entt::registry::get_or_emplace<TransformComponent>>();
+  m_ecs.on_construct<MeshRendererComponent>()
+      .connect<&entt::registry::get_or_emplace<TransformComponent>>();
 }
 } // namespace KEngine

@@ -1,13 +1,16 @@
 #pragma once
 
-#include "Renderer.hpp"
-#include "UUID.hpp"
-#include "scripting/ScriptEngine.hpp"
 #include <cstdlib>
-#include <entt/entt.hpp>
 #include <memory>
 #include <string>
 #include <tuple>
+
+#include "Renderer.hpp"
+#include "UUID.hpp"
+#include "Version.hpp"
+#include "entt/entt.hpp"
+#include "nlohmann/json_fwd.hpp"
+#include "scripting/ScriptEngine.hpp"
 
 namespace KEngine {
 using Entity = uint64_t;
@@ -69,12 +72,11 @@ public:
   void update();
   void end();
 
+  void save();
   void save(std::filesystem::path const &path);
   void load(std::filesystem::path const &path);
 
   void create(std::string const &name);
-
-  flecs::query<entt::entity> entities_view();
 
   template <typename T> bool has(entt::entity e) { return m_ecs.all_of<T>(e); }
 
@@ -107,9 +109,15 @@ public:
 
   std::string const &name() const { return m_name; }
 
+  void version_0_0(nlohmann::json &es);
+  void resolve_version(Version version, nlohmann::json &es);
+
+  std::filesystem::path const &path() const { return m_path; }
+
 private:
   std::string m_name;
-  uint16_t m_version;
+  std::filesystem::path m_path;
+  Version m_version;
 
   Renderer m_renderer;
 
@@ -118,5 +126,9 @@ private:
   KEngine::ScriptEngine m_script_engine;
 
   entt::registry m_ecs;
+
+  std::function<void(entt::registry const &)> m_extern_component_save;
+  std::function<void(entt::registry &, nlohmann::json const &)>
+      m_extern_component_load;
 };
 } // namespace KEngine

@@ -1,7 +1,9 @@
 #include "scripting/CodeGen.hpp"
+
 #include <cassert>
 #include <cctype>
 #include <filesystem>
+#include <format>
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -95,6 +97,65 @@ private:
   std::string_view m_src;
 };
 
+template <> struct std::formatter<std::vector<std::string_view>> {
+  bool entt_hs = false;
+  bool pid = false;
+
+  template <class ParseContext>
+  constexpr ParseContext::iterator parse(ParseContext &ctx) {
+    auto it = ctx.begin();
+    if (it == ctx.end()) {
+      return it;
+    }
+    if (*it == 'h') {
+      ++it;
+      if (*it == 's') {
+        entt_hs = true;
+        ++it;
+      } else {
+        throw std::format_error("no hs?");
+      }
+    }
+    if (*it == 'p') {
+      ++it;
+      if (*it == 'i') {
+        ++it;
+        if (*it == 'd') {
+          pid = true;
+          ++it;
+        }
+      } else {
+        throw std::format_error("no hs?");
+      }
+    }
+    if (it != ctx.end() && *it != '}') {
+      throw std::format_error("no brace?");
+    }
+    return it;
+  }
+
+  template <class FmtContext>
+  FmtContext::iterator format(std::vector<std::string_view> const &v,
+                              FmtContext &ctx) const {
+    std::ostringstream out;
+    int i = 0;
+    for (auto item : v) {
+      if (entt_hs) {
+        out << "\"" << item << "\"_hs";
+      } else if (pid) {
+        out << "{prop_ids[" << i << "], \"" << item << "\"}";
+      } else {
+        out << item;
+      }
+      if (i < v.size() - 1) {
+        out << ", ";
+      }
+      ++i;
+    }
+    return std::ranges::copy(std::move(out).str(), ctx.out()).out;
+  }
+};
+
 namespace KEditor {
 struct Component {
   std::string_view name;
@@ -130,51 +191,77 @@ void generate_script(std::filesystem::path const &path, std::ofstream &os,
           }
         }
 
+        std::string ps = path.string();
+        os << std::vformat(
+            R"(
+#include <vector>
+#include <cstdint>
+
+#include "nlohmann/json.hpp"
+#include "entt/entt.hpp"
+
+#include "{0}"
+
+using namespace entt::literals;
+
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE({1}, {2});
+
+namespace {1}Reflected {{
+inline std::vector<entt::id_type> prop_ids = {{ {2:hs} }};
+
+inline std::map<entt::id_type, char const *> id_to_name = {{
+  {{entt::type_id<{1}>().index(), "{1}"}},
+  {2:pid}
+}};
+
+inline void save(nlohmann::json &j, entt::registry const &reg) {{
+  nlohmann::json cs = nlohmann::json::array();
+  reg.view<{1}>().each([&cs](entt::entity e, {1} const &c) {{
+    cs.push_back({{ {{ "entity", (uint64_t)e }}, {{ "data", c }} }});
+  }});
+  j["{1}"] = cs;
+}}
+
+inline void load(nlohmann::json const &j, entt::registry &reg) {{
+  for (auto val : j) {{
+    entt::entity e = (entt::entity)val["entity"].get<uint64_t>();
+    {1} c = j["data"].get<{1}>();
+    reg.emplace<{1}>(e, c);
+  }}
+}}
+}} // namespace {1}Reflected
+)",
+            std::make_format_args(ps, c.name, c.prop_names));
+
         os << "#include <vector>\n"
-              "#include <nlohman/json.h>\n"
-              "#include <cstdint>\n"
-              "#include <flecs.h>\n"
-              "using namespace entt::literals;\n\n";
+              "#include <cstdint>\n\n"
+              "#include \"nlohmann/json.hpp\"\n"
+              "#include \"entt/entt.hpp\"\n\n"
+              "using namespace entt::literals;\n\n"
+              "NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE("
+           << c.name;
+        for (auto p : c.prop_names) {
+          os << ", " << p;
+        }
 
-        os << "#include " << path << "\n\n";
-
+        os << "\n\n";
         os << "namespace " << c.name << "Reflected {\n";
         os << "inline std::vector<entt::id_type> prop_ids = {\n";
         for (auto p : c.prop_names) {
-          os << "  \"" << p << "\"_hs,\n";
+          os << "\"" << p << "\"_hs,\n";
         }
-        os << "};\n";
-        os << "inline std::map<entt::id_type, const char *> id_to_name = {\n";
+        os << "}\n";
 
-        os << "  {entt::type_id<" << c.name << ">().index(), \"" << c.name
-           << "\"},\n";
+        os << "inline std::map<entt::id_type, char const *> id_to_name = {\n"
+              "  {entt::type_id<Foo>().index(), \"Foo\"},\n";
         int i = 0;
         for (auto p : c.prop_names) {
-          os << "  {prop_ids[" << i << "], \"" << p << "\"},\n";
+          os << std::vformat("  {{prop_ids[{0}], \"{1}\"},\n",
+                             std::make_format_args(i, p));
           ++i;
         }
-        os << "};\n\n";
-
-        os << "inline void save(nlohman::json &j, flecs::entity e) {\n";
-        os << "nlohman::json node = j.object();";
-        os << "  e.get<" << c.name << ">([&j](" << c.name << " const &c) {";
-        for (auto p : c.prop_names) {
-          os << "\n  node[\"" << p << "\"] = c." << p << ";";
-        }
-        os << "  });\n";
-        os << "  j[\"" << c.name << "\"] = node;";
-        os << "}\n\n";
-
-        os << "inline void load(nlohman::json const &j, entt::registry &reg, "
-              "entt::entity e) {\n  reg.emplace<"
-           << c.name << ">(e";
-        for (auto p : c.prop_names) {
-          os << ",\n    node[\"" << p << "\"].as<decltype(" << c.name
-             << "::" << p << ")>()";
-        }
-        os << ");\n";
+        os << "};\n";
         os << "}\n";
-        os << "} // namespace " << c.name << "Reflected\n";
 
         component_names.push_back(c);
       } else if (t.text == "KSYSTEM") {
@@ -186,11 +273,13 @@ void generate_script(std::filesystem::path const &path, std::ofstream &os,
 void CodeGen::generate(std::vector<std::filesystem::path> const &scripts) {
   std::filesystem::create_directory("./generated");
   std::ofstream init_fs("./generated/init.cpp");
+
   init_fs << "#include <string>\n"
              "#include <type_traits>\n"
-             "#include <yaml-cpp/yaml.h>\n\n"
-             "#include <entt/entt.hpp>\n"
-             "#include <imgui.h>\n";
+             "#include <cstdint>\n\n"
+             "#include \"nlohmann/json.hpp\"\n"
+             "#include \"entt/entt.hpp\"\n"
+             "#include \"imgui.h\"\n\n";
 
   std::vector<Component> components;
   components.reserve(scripts.size());
@@ -199,8 +288,8 @@ void CodeGen::generate(std::vector<std::filesystem::path> const &scripts) {
     std::stringstream ss;
     ss << ifs.rdbuf();
 
-    auto path = script.parent_path() /
-                script.filename().stem().string().append("-generated.hpp");
+    auto filename = script.filename().string() + "-generated.hpp";
+    auto path = script.parent_path() / filename;
     std::filesystem::create_directories("./generated" / path.parent_path());
     std::ofstream ofs("generated" / path);
     generate_script(script, ofs, ss.view(), components);
@@ -212,38 +301,35 @@ void CodeGen::generate(std::vector<std::filesystem::path> const &scripts) {
   init_fs << "\n";
 
   // save
-  init_fs << "extern \"C\" void save(YAML::Emitter &out, entt::registry const "
-             "&reg) {"
-             "  out << YAML::Key << \"Entities\";";
+  init_fs << "extern \"C\" void save(nlohmann::json &j, entt::registry const "
+             "&reg) {";
 
   for (auto c : components) {
-    init_fs << "\n  " << c.name << "Reflected::save(out, reg);";
+    init_fs << "\n  " << c.name << "Reflected::save(j, reg);";
   }
 
   init_fs << "\n}\n";
   // -----------
 
   // load
-  init_fs << "extern \"C\" void load(YAML::Node &node, entt::registry &reg) {\n"
-             "  int i = 0;\n"
-             "  for (auto e : node) {\n";
+  init_fs << "extern \"C\" void load(nlohmann::json const &j, entt::registry "
+             "&reg) {\n";
   for (auto c : components) {
-    init_fs << "    if (e[\"Foo\"].IsDefined())\n";
-    init_fs << "      " << c.name
-            << "Reflected::load(node, reg, (entt::entity)i);\n";
+    init_fs << std::vformat("    if (j.contains(\"{0}\")) {{\n"
+                            "      {0}Reflected::load(j[\"{0}\"], reg);\n"
+                            "    }}\n",
+                            std::make_format_args(c.name));
   }
-  init_fs << "    ++i;\n  }\n}\n";
+  init_fs << "\n  }\n}\n";
   // -----------
 
   // add_component
   init_fs << "extern \"C\" void add_component(entt::registry &reg, std::string "
-             "name,\n";
-  init_fs << "                               entt::entity e) {\n";
+             "const &name, entt::entity e) {\n";
   for (auto c : components) {
     init_fs << "   if (name == \"" << c.name << "\") {\n";
-    init_fs << "     reg.emplace<" << c.name
-            << ">(e);\n"
-               "     return;\n";
+    init_fs << "     reg.emplace<" << c.name << ">(e);\n";
+    init_fs << "     return;\n";
     init_fs << "   }\n";
   }
   init_fs << " }\n";
@@ -279,9 +365,8 @@ void CodeGen::generate(std::vector<std::filesystem::path> const &scripts) {
              "entt::entity e) {\n";
   for (auto c : components) {
     init_fs << "  if (!reg.all_of<" << c.name << ">(e)) {\n";
-    init_fs << "    if (ImGui::Button(\"" << c.name << "\")) {\n";
+    init_fs << "    if (ImGui::MenuItem(\"" << c.name << "\")) {\n";
     init_fs << "      reg.emplace<" << c.name << ">(e);\n";
-    init_fs << "      ImGui::CloseCurrentPopup();\n";
     init_fs << "    }\n";
     init_fs << "  }\n";
   }

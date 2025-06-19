@@ -1,8 +1,8 @@
 #include "Window.hpp"
 
 // clang-format off
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
+#include "glad/glad.h"
+#include "GLFW/glfw3.h"
 // clang-format on
 
 Window::Window(uint32_t width, uint32_t height, std::string_view const &title)

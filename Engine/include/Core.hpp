@@ -16,15 +16,13 @@
 #define K_API
 #endif
 
-#ifndef K_VERSION
-#define K_VERSION 0
-#endif
 #ifndef K_VERSION_MINOR
-#define K_VERSION_MINOR K_VERSION & 0x0f
+#define K_VERSION_MINOR 0
 #endif
 #ifndef K_VERSION_MAJOR
-#define K_VERSION_MAJOR K_VERSION >> 8 & 0x0f
+#define K_VERSION_MAJOR 0
 #endif
+#define K_VERSION Version(K_VERSION_MINOR, K_VERSION_MAJOR)
 
 #define KCOMPONENT(...)
 #define KSYSTEM(...)

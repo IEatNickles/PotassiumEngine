@@ -112,8 +112,6 @@ Editor/potassium-editor: Engine/libpotassium.so
 Editor/potassium-editor: Engine/vendor/glfw/src/libglfw3.a
 Editor/potassium-editor: /usr/lib/x86_64-linux-gnu/librt.a
 Editor/potassium-editor: /usr/lib/x86_64-linux-gnu/libm.so
-Editor/potassium-editor: Engine/vendor/yaml-cpp/libyaml-cppd.a
-Editor/potassium-editor: Engine/vendor/flecs/libflecs.so
 Editor/potassium-editor: Editor/CMakeFiles/potassium-editor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable potassium-editor"
 	cd /home/jdw/dev/potassium-engine/build/Editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/potassium-editor.dir/link.txt --verbose=$(VERBOSE)

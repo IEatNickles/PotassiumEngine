@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_DEFINES = -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION=0x0 -DYAML_CPP_STATIC_DEFINE -Dpotassium_EXPORTS
+C_DEFINES = -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS
 
-C_INCLUDES = -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt/include -I/home/jdw/dev/potassium-engine/Engine/vendor/msgpack -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json/include -I/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -I/home/jdw/dev/potassium-engine/Engine/vendor/yaml-cpp/include
+C_INCLUDES = -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include
 
-C_FLAGS = -g -fPIC
+C_FLAGS = -fPIC
 
-CXX_DEFINES = -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION=0x0 -DYAML_CPP_STATIC_DEFINE -Dpotassium_EXPORTS
+CXX_DEFINES = -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS
 
-CXX_INCLUDES = -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt/include -I/home/jdw/dev/potassium-engine/Engine/vendor/msgpack -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json/include -I/home/jdw/dev/potassium-engine/Engine/vendor/flecs/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -I/home/jdw/dev/potassium-engine/Engine/vendor/yaml-cpp/include
+CXX_INCLUDES = -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include
 
-CXX_FLAGS = -O0 -g -std=gnu++20 -fPIC
+CXX_FLAGS = -std=gnu++20 -fPIC
 

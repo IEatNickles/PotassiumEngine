@@ -96,8 +96,6 @@ Sandbox/sandbox: Engine/libpotassium.so
 Sandbox/sandbox: Engine/vendor/glfw/src/libglfw3.a
 Sandbox/sandbox: /usr/lib/x86_64-linux-gnu/librt.a
 Sandbox/sandbox: /usr/lib/x86_64-linux-gnu/libm.so
-Sandbox/sandbox: Engine/vendor/yaml-cpp/libyaml-cppd.a
-Sandbox/sandbox: Engine/vendor/flecs/libflecs.so
 Sandbox/sandbox: Sandbox/CMakeFiles/sandbox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sandbox"
 	cd /home/jdw/dev/potassium-engine/build/Sandbox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sandbox.dir/link.txt --verbose=$(VERBOSE)

@@ -1,4 +1,5 @@
 #include "utils/PlatformUtils.hpp"
+
 #include <dlfcn.h>
 
 namespace PlatformUtils {

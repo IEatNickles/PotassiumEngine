@@ -13,8 +13,8 @@ struct Mesh {
   Mesh(std::vector<glm::vec3> const &positions,
        std::vector<int> const &indices);
 
-  uint32_t vbo, ebo, vao;
-  uint32_t index_count;
+  uint32_t vbo = 0, ebo = 0, vao = 0;
+  uint32_t index_count = 0;
 };
 
 class Renderer {
