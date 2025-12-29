@@ -1,0 +1,6 @@
+{
+  "project_name": "ExampleProject",
+  "root_directory": "/home/jdw/dev/PotassiumEngine/Editor/ExampleProject/",
+  "build_directory": "bulid/",
+  "assets_directory": "Assets/"
+}

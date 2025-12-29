@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/install_manifest.txt" files)
+file(READ "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

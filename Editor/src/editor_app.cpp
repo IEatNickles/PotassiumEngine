@@ -1,3 +1,5 @@
+#include "AssetBrowser.hpp"
+#include "Project.hpp"
 #include "Viewport.hpp"
 #include "glm/ext/quaternion_float.hpp"
 #include "glm/ext/vector_float3.hpp"
@@ -32,6 +34,144 @@
 #include "components/Name.hpp"
 #include "components/Relationship.hpp"
 #include "components/Transform.hpp"
+
+#include "serialize/Components.hpp"
+
+template <typename T> void draw(T &);
+
+#define _NUM_ARGS(                                                             \
+    v255, v254, v253, v252, v251, v250, v249, v248, v247, v246, v245, v244,    \
+    v243, v242, v241, v240, v239, v238, v237, v236, v235, v234, v233, v232,    \
+    v231, v230, v229, v228, v227, v226, v225, v224, v223, v222, v221, v220,    \
+    v219, v218, v217, v216, v215, v214, v213, v212, v211, v210, v209, v208,    \
+    v207, v206, v205, v204, v203, v202, v201, v200, v199, v198, v197, v196,    \
+    v195, v194, v193, v192, v191, v190, v189, v188, v187, v186, v185, v184,    \
+    v183, v182, v181, v180, v179, v178, v177, v176, v175, v174, v173, v172,    \
+    v171, v170, v169, v168, v167, v166, v165, v164, v163, v162, v161, v160,    \
+    v159, v158, v157, v156, v155, v154, v153, v152, v151, v150, v149, v148,    \
+    v147, v146, v145, v144, v143, v142, v141, v140, v139, v138, v137, v136,    \
+    v135, v134, v133, v132, v131, v130, v129, v128, v127, v126, v125, v124,    \
+    v123, v122, v121, v120, v119, v118, v117, v116, v115, v114, v113, v112,    \
+    v111, v110, v109, v108, v107, v106, v105, v104, v103, v102, v101, v100,    \
+    v99, v98, v97, v96, v95, v94, v93, v92, v91, v90, v89, v88, v87, v86, v85, \
+    v84, v83, v82, v81, v80, v79, v78, v77, v76, v75, v74, v73, v72, v71, v70, \
+    v69, v68, v67, v66, v65, v64, v63, v62, v61, v60, v59, v58, v57, v56, v55, \
+    v54, v53, v52, v51, v50, v49, v48, v47, v46, v45, v44, v43, v42, v41, v40, \
+    v39, v38, v37, v36, v35, v34, v33, v32, v31, v30, v29, v28, v27, v26, v25, \
+    v24, v23, v22, v21, v20, v19, v18, v17, v16, v15, v14, v13, v12, v11, v10, \
+    v9, v8, v7, v6, v5, v4, v3, v2, v1, N, ...)                                \
+  N
+
+#define NUM_ARGS(...)                                                          \
+  _NUM_ARGS(                                                                   \
+      __VA_ARGS__, 255, 254, 253, 252, 251, 250, 249, 248, 247, 246, 245, 244, \
+      243, 242, 241, 240, 239, 238, 237, 236, 235, 234, 233, 232, 231, 230,    \
+      229, 228, 227, 226, 225, 224, 223, 222, 221, 220, 219, 218, 217, 216,    \
+      215, 214, 213, 212, 211, 210, 209, 208, 207, 206, 205, 204, 203, 202,    \
+      201, 200, 199, 198, 197, 196, 195, 194, 193, 192, 191, 190, 189, 188,    \
+      187, 186, 185, 184, 183, 182, 181, 180, 179, 178, 177, 176, 175, 174,    \
+      173, 172, 171, 170, 169, 168, 167, 166, 165, 164, 163, 162, 161, 160,    \
+      159, 158, 157, 156, 155, 154, 153, 152, 151, 150, 149, 148, 147, 146,    \
+      145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135, 134, 133, 132,    \
+      131, 130, 129, 128, 127, 126, 125, 124, 123, 122, 121, 120, 119, 118,    \
+      117, 116, 115, 114, 113, 112, 111, 110, 109, 108, 107, 106, 105, 104,    \
+      103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87,  \
+      86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69,  \
+      68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51,  \
+      50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33,  \
+      32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15,  \
+      14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0)
+
+#define EXPAND(x) x
+#define FIRST_ARG(x, ...) (x)
+#define REST_OF_ARGS(x, ...) (__VA_ARGS__)
+#define FOREACH(M, list) FOREACH_(NUM_ARGS list, M, list)
+#define FOREACH_(N, M, list) FOREACH__(N, M, list)
+#define FOREACH__(N, M, list) FOREACH_##N(M, list)
+#define FOREACH_1(M, list) M list
+#define FOREACH_2(M, list)                                                     \
+  EXPAND(M FIRST_ARG list) FOREACH_1(M, REST_OF_ARGS list)
+#define FOREACH_3(M, list)                                                     \
+  EXPAND(M FIRST_ARG list) FOREACH_2(M, REST_OF_ARGS list)
+
+#define STRINGIFY(x) #x,
+#define LIST_OF_STRINGS(...) {FOREACH(STRINGIFY, (__VA_ARGS__))}
+
+#define SERIALIZE_BEGIN(T) template <> void draw(T &component) {
+
+#define _FIELD_ASSERT_PARAM_IS(name, T)                                        \
+  static_assert(std::is_same_v<decltype(component.name), T>,                   \
+                "the type of the field is incorrect");
+#define _FIELD_ASSERT_PARAM_IS2(name, T, T1)                                   \
+  static_assert(std::is_same_v<decltype(component.name), T> ||                 \
+                    std::is_same_v<decltype(component.name), T2>,              \
+                "the type of the field is incorrect");
+
+#define FIELD_FLOAT(name)                                                      \
+  _FIELD_ASSERT_PARAM_IS(name, float)                                          \
+  ImGui::DragFloat(#name, &component.name);
+#define FIELD_FLOAT2(name)                                                     \
+  _FIELD_ASSERT_PARAM_IS(name, glm::vec2)                                      \
+  ImGui::DragFloat2(#name, &component.name[0]);
+#define FIELD_FLOAT3(name)                                                     \
+  _FIELD_ASSERT_PARAM_IS(name, glm::vec3)                                      \
+  ImGui::DragFloat3(#name, &component.name[0]);
+#define FIELD_FLOAT4(name)                                                     \
+  _FIELD_ASSERT_PARAM_IS(name, glm::vec4)                                      \
+  ImGui::DragFloat4(#name, &component.name[0]);
+
+#define FIELD_INT(name)                                                        \
+  _FIELD_ASSERT_PARAM_IS(name, int)                                            \
+  ImGui::DragInt(#name, &component.name);
+#define FIELD_INT2(name)                                                       \
+  _FIELD_ASSERT_PARAM_IS(name, glm::ivec2)                                     \
+  ImGui::DragInt2(#name, &component.name[0]);
+#define FIELD_INT3(name)                                                       \
+  _FIELD_ASSERT_PARAM_IS(name, glm::ivec3)                                     \
+  ImGui::DragInt3(#name, &component.name[0]);
+#define FIELD_INT4(name)                                                       \
+  _FIELD_ASSERT_PARAM_IS(name, glm::ivec4)                                     \
+  ImGui::DragInt4(#name, &component.name[0]);
+
+#define FIELD_STRING(name)                                                     \
+  _FIELD_ASSERT_PARAM_IS2(name, std::string, const char *);                    \
+  ImGui::InputText(#name, &component.name);
+
+#define FIELD_SLIDER_FLOAT(name, min, max)                                     \
+  ImGui::SliderFloat(#name, &component.name, min, max);
+#define FIELD_SLIDER_INT(name, min, max)                                       \
+  ImGui::SliderInt(#name, &component.name, min, max);
+#define FIELD_DROPDOWN(name, ...)                                              \
+  {                                                                            \
+    char const *const items[NUM_ARGS(__VA_ARGS__)] =                           \
+        LIST_OF_STRINGS(__VA_ARGS__);                                          \
+    int c = component.name;                                                    \
+    if (ImGui::Combo(#name, (int *)&c, items, NUM_ARGS(__VA_ARGS__))) {        \
+      component.name = (decltype(component.name))c;                            \
+    }                                                                          \
+  }
+#define FIELD_COLOR3(name)                                                     \
+  static_assert(std::is_same_v<decltype(component.name), glm::vec3>);          \
+  ImGui::ColorPicker3(#name, &component.name[0]);
+#define FIELD_COLOR4(name)                                                     \
+  static_assert(std::is_same_v<decltype(component.name), glm::vec4>);          \
+  ImGui::ColorPicker4(#name, &component.name[0]);
+
+#define FIELD_CUSTOM(fn) fn
+
+#define SERIALIZE_END }
+
+SERIALIZE_BEGIN(CameraComponent);
+FIELD_FLOAT(size);
+FIELD_DROPDOWN(projection, Orthographic, Perspective)
+FIELD_SLIDER_FLOAT(aspect, 0, 1);
+FIELD_COLOR3(clear_color);
+FIELD_FLOAT3(clear_color);
+FIELD_CUSTOM({
+  ImGui::Text("HI");
+  ImGui::Text("I got size: %f", component.size);
+})
+SERIALIZE_END
 
 void glfw_error_callback(int error_code, char const *description) {
   std::cout << "GLFW Error: " << error_code << ": " << description << "\n";
@@ -134,7 +274,7 @@ public:
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;
 
     io.Fonts->AddFontFromFileTTF(
-        "Editor/assets/fonts/JetBrainsMono/JetBrainsMono-Regular.ttf", 16);
+        "Editor/assets/fonts/JetBrainsMonoNerdFont-Regular.ttf", 16);
 
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init();
@@ -211,6 +351,15 @@ public:
                 delete m_current_scene;
               }
               m_current_scene = scene;
+            }
+          }
+          if (ImGui::MenuItem("Open Project")) {
+            char *file = tinyfd_openFileDialog("Open Project", "~/", 0, nullptr,
+                                               nullptr, 0);
+            if (file != nullptr) {
+              DEBUG_TRACE("opening project: {}", file);
+              m_project = Project(std::filesystem::path(file));
+              m_asset_browser.set_root_directory(m_project.asset_directory);
             }
           }
           if (!show_imgui_example_window &&
@@ -301,6 +450,8 @@ public:
       }
 
       ImGui::End(); // EntityView
+
+      m_asset_browser.draw();
 
       ImGui::Render();
 
@@ -424,6 +575,89 @@ public:
 
   template <typename T, typename Fn>
   void draw_component(std::string const &name, entt::entity e, Fn draw_fn) {
+    // if (m_current_scene->has<T>(e)) {
+    //   static constexpr char const *button_label = "...";
+    //   ImVec2 button_size = ImGui::CalcTextSize(button_label);
+
+    //   bool open =
+    //       ImGui::TreeNodeEx(name.c_str(), ImGuiTreeNodeFlags_Framed |
+    //                                           ImGuiTreeNodeFlags_FramePadding
+    //                                           |
+    //                                           ImGuiTreeNodeFlags_DefaultOpen
+    //                                           |
+    //                                           ImGuiTreeNodeFlags_AllowOverlap);
+    //   ImGui::SameLine();
+
+    //   ImGui::SetCursorPosX(ImGui::GetWindowWidth() - button_size.x - 16.0f);
+    //   ImGui::PushID(typeid(T).name());
+    //   bool remove = false;
+    //   if (ImGui::Button(button_label)) {
+    //     ImGui::OpenPopup("Options");
+    //   }
+    //   if (ImGui::BeginPopup("Options")) {
+    //     remove = ImGui::Button("Remove");
+    //     ImGui::EndPopup();
+    //   }
+    //   ImGui::PopID();
+    //   if (open) {
+    //     ImGui::PushID((int)e);
+    //     ImGui::PopID();
+
+    //     nlohmann::json j = m_current_scene->get<T>(e);
+    //     for (auto &[k, v] : j.items()) {
+    //       if (v.is_number_integer()) {
+    //         int s = v.get<int>();
+    //         ImGui::DragInt(k.c_str(), &s);
+    //         v = s;
+    //       } else if (v.is_number_float()) {
+    //         float s = v.get<float>();
+    //         ImGui::DragFloat(k.c_str(), &s);
+    //         v = s;
+    //       } else if (v.is_string()) {
+    //         std::string s = v.get<std::string>();
+    //         ImGui::InputText(k.c_str(), &s);
+    //         v = s;
+    //       } else if (v.is_array()) {
+    //         if (v.size() == 2) {
+    //           if (v[0].is_number_float() && v[1].is_number_float()) {
+    //             float vec[2];
+    //             vec[0] = v[0].get<float>();
+    //             vec[1] = v[1].get<float>();
+    //             ImGui::DragFloat2(k.c_str(), vec);
+    //             v = vec;
+    //           }
+    //         } else if (v.size() == 3) {
+    //           if (v[0].is_number_float() && v[1].is_number_float() &&
+    //               v[2].is_number_float()) {
+    //             float vec[3];
+    //             vec[0] = v[0].get<float>();
+    //             vec[1] = v[1].get<float>();
+    //             vec[2] = v[2].get<float>();
+    //             ImGui::DragFloat3(k.c_str(), vec);
+    //             v = vec;
+    //           }
+    //         } else if (v.size() == 4) {
+    //           if (v[0].is_number_float() && v[1].is_number_float() &&
+    //               v[2].is_number_float() && v[3].is_number_float()) {
+    //             float vec[4];
+    //             vec[0] = v[0].get<float>();
+    //             vec[1] = v[1].get<float>();
+    //             vec[2] = v[2].get<float>();
+    //             vec[3] = v[3].get<float>();
+    //             ImGui::DragFloat4(k.c_str(), vec);
+    //             v = vec;
+    //           }
+    //         }
+    //       }
+    //     }
+    //     m_current_scene->get<T>(e) = j;
+
+    //     ImGui::TreePop();
+    //   }
+    //   if (remove) {
+    //     m_current_scene->remove_component<T>(e);
+    //   }
+    // }
     if (m_current_scene->has<T>(e)) {
       static constexpr char const *button_label = "...";
       ImVec2 button_size = ImGui::CalcTextSize(button_label);
@@ -470,6 +704,7 @@ public:
   }
 
   void draw_components(entt::entity e) {
+
     draw_component<RelationshipComponent>(
         "Relationship", e, [](RelationshipComponent &r) {
           ImGui::Text("count: %zu", (uint64_t)r.child_count);
@@ -563,37 +798,36 @@ private:
   KEngine::Scene *m_current_scene;
   entt::entity m_selected_entity = entt::null;
 
+  Project m_project;
+
   std::vector<entt::entity> m_entity_windows;
 
   std::string name;
 
   uint32_t m_fbo = 0;
   uint32_t m_fb_tex = 0, m_fb_depth_tex = 0;
+
+  AssetBrowser m_asset_browser;
 };
 
 KEngine::App *KEngine::create_app() { return new EditorApp(); }
 
 void colors() {
-  // ImGuiIO &io = ImGui::GetIO();
-  // io.FontDefault =
-  //     io.Fonts->AddFontFromFileTTF("Editor/assets/fonts/CaskaydiaCove-NerdFont/"
-  //                                  "CaskaydiaCoveNerdFont-Regular.ttf",
-  //                                  16.0f);
+  ImGuiStyle &style = ImGui::GetStyle();
+  style.FrameRounding = 2;
+  style.ScrollbarRounding = 2;
+  style.GrabRounding = 2;
+  style.WindowPadding = ImVec2(4, 4);
+  style.ScrollbarSize = 10;
+  style.TabRounding = 2;
+  style.TreeLinesFlags = ImGuiTreeNodeFlags_DrawLinesToNodes;
+  style.TreeLinesSize = 1;
+  style.TreeLinesRounding = 0;
+  style.WindowTitleAlign = ImVec2(0.5f, 0.5f);
+  style.WindowMenuButtonPosition = ImGuiDir_None;
+  style.DockingSeparatorSize = 2;
 
-  ImGui::GetStyle().FrameRounding = 2;
-  ImGui::GetStyle().ScrollbarRounding = 2;
-  ImGui::GetStyle().GrabRounding = 2;
-  ImGui::GetStyle().WindowPadding = ImVec2(4, 4);
-  ImGui::GetStyle().ScrollbarSize = 10;
-  ImGui::GetStyle().TabRounding = 2;
-  ImGui::GetStyle().TreeLinesFlags = ImGuiTreeNodeFlags_DrawLinesToNodes;
-  ImGui::GetStyle().TreeLinesSize = 1;
-  ImGui::GetStyle().TreeLinesRounding = 0;
-  ImGui::GetStyle().WindowTitleAlign = ImVec2(0.5f, 0.5f);
-  ImGui::GetStyle().WindowMenuButtonPosition = ImGuiDir_None;
-  ImGui::GetStyle().DockingSeparatorSize = 2;
-
-  ImVec4 *colors = ImGui::GetStyle().Colors;
+  ImVec4 *colors = style.Colors;
 
   constexpr const unsigned int dark = 0xff19181a;
   constexpr const unsigned int black = 0xff221f22;

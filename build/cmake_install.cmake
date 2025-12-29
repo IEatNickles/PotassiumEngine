@@ -1,4 +1,4 @@
-# Install script for directory: /home/jdw/dev/potassium-engine
+# Install script for directory: /home/jdw/dev/PotassiumEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jdw/dev/potassium-engine/build/Engine/cmake_install.cmake")
-  include("/home/jdw/dev/potassium-engine/build/Sandbox/cmake_install.cmake")
-  include("/home/jdw/dev/potassium-engine/build/Editor/cmake_install.cmake")
+  include("/home/jdw/dev/PotassiumEngine/build/Engine/cmake_install.cmake")
+  include("/home/jdw/dev/PotassiumEngine/build/Sandbox/cmake_install.cmake")
+  include("/home/jdw/dev/PotassiumEngine/build/Editor/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jdw/dev/potassium-engine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jdw/dev/PotassiumEngine/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdw/dev/potassium-engine
+CMAKE_SOURCE_DIR = /home/jdw/dev/PotassiumEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdw/dev/potassium-engine/build
+CMAKE_BINARY_DIR = /home/jdw/dev/PotassiumEngine/build
 
 # Include any dependencies generated for this target.
 include Engine/CMakeFiles/potassium.dir/depend.make
@@ -70,256 +70,256 @@ include Engine/CMakeFiles/potassium.dir/progress.make
 include Engine/CMakeFiles/potassium.dir/flags.make
 
 Engine/CMakeFiles/potassium.dir/src/main.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/main.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/main.cpp
+Engine/CMakeFiles/potassium.dir/src/main.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/main.cpp
 Engine/CMakeFiles/potassium.dir/src/main.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Engine/CMakeFiles/potassium.dir/src/main.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/main.cpp.o -MF CMakeFiles/potassium.dir/src/main.cpp.o.d -o CMakeFiles/potassium.dir/src/main.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Engine/CMakeFiles/potassium.dir/src/main.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/main.cpp.o -MF CMakeFiles/potassium.dir/src/main.cpp.o.d -o CMakeFiles/potassium.dir/src/main.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/main.cpp
 
 Engine/CMakeFiles/potassium.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/main.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/main.cpp > CMakeFiles/potassium.dir/src/main.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/main.cpp > CMakeFiles/potassium.dir/src/main.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/main.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/main.cpp -o CMakeFiles/potassium.dir/src/main.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/main.cpp -o CMakeFiles/potassium.dir/src/main.cpp.s
 
 Engine/CMakeFiles/potassium.dir/src/Window.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/Window.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/Window.cpp
+Engine/CMakeFiles/potassium.dir/src/Window.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/Window.cpp
 Engine/CMakeFiles/potassium.dir/src/Window.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Window.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Window.cpp.o -MF CMakeFiles/potassium.dir/src/Window.cpp.o.d -o CMakeFiles/potassium.dir/src/Window.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Window.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Window.cpp.o -MF CMakeFiles/potassium.dir/src/Window.cpp.o.d -o CMakeFiles/potassium.dir/src/Window.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Window.cpp
 
 Engine/CMakeFiles/potassium.dir/src/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/Window.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/Window.cpp > CMakeFiles/potassium.dir/src/Window.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/Window.cpp > CMakeFiles/potassium.dir/src/Window.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/Window.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/Window.cpp -o CMakeFiles/potassium.dir/src/Window.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/Window.cpp -o CMakeFiles/potassium.dir/src/Window.cpp.s
 
 Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/Scene.cpp
+Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/Scene.cpp
 Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o -MF CMakeFiles/potassium.dir/src/Scene.cpp.o.d -o CMakeFiles/potassium.dir/src/Scene.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o -MF CMakeFiles/potassium.dir/src/Scene.cpp.o.d -o CMakeFiles/potassium.dir/src/Scene.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Scene.cpp
 
 Engine/CMakeFiles/potassium.dir/src/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/Scene.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/Scene.cpp > CMakeFiles/potassium.dir/src/Scene.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/Scene.cpp > CMakeFiles/potassium.dir/src/Scene.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/Scene.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/Scene.cpp -o CMakeFiles/potassium.dir/src/Scene.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/Scene.cpp -o CMakeFiles/potassium.dir/src/Scene.cpp.s
 
 Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/Renderer.cpp
+Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/Renderer.cpp
 Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o -MF CMakeFiles/potassium.dir/src/Renderer.cpp.o.d -o CMakeFiles/potassium.dir/src/Renderer.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o -MF CMakeFiles/potassium.dir/src/Renderer.cpp.o.d -o CMakeFiles/potassium.dir/src/Renderer.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Renderer.cpp
 
 Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/Renderer.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/Renderer.cpp > CMakeFiles/potassium.dir/src/Renderer.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/Renderer.cpp > CMakeFiles/potassium.dir/src/Renderer.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/Renderer.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/Renderer.cpp -o CMakeFiles/potassium.dir/src/Renderer.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/Renderer.cpp -o CMakeFiles/potassium.dir/src/Renderer.cpp.s
 
 Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/Shader.cpp
+Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/Shader.cpp
 Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o -MF CMakeFiles/potassium.dir/src/Shader.cpp.o.d -o CMakeFiles/potassium.dir/src/Shader.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o -MF CMakeFiles/potassium.dir/src/Shader.cpp.o.d -o CMakeFiles/potassium.dir/src/Shader.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Shader.cpp
 
 Engine/CMakeFiles/potassium.dir/src/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/Shader.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/Shader.cpp > CMakeFiles/potassium.dir/src/Shader.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/Shader.cpp > CMakeFiles/potassium.dir/src/Shader.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/Shader.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/Shader.cpp -o CMakeFiles/potassium.dir/src/Shader.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/Shader.cpp -o CMakeFiles/potassium.dir/src/Shader.cpp.s
 
 Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/scripting/ScriptEngine.cpp
+Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/scripting/ScriptEngine.cpp
 Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o -MF CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o.d -o CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/scripting/ScriptEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o -MF CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o.d -o CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/scripting/ScriptEngine.cpp
 
 Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/scripting/ScriptEngine.cpp > CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/scripting/ScriptEngine.cpp > CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/scripting/ScriptEngine.cpp -o CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/scripting/ScriptEngine.cpp -o CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.s
 
 Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/utils/LinuxUtils.cpp
+Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/utils/LinuxUtils.cpp
 Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o -MF CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o.d -o CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/utils/LinuxUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o -MF CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o.d -o CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/utils/LinuxUtils.cpp
 
 Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/utils/LinuxUtils.cpp > CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/utils/LinuxUtils.cpp > CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/utils/LinuxUtils.cpp -o CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/utils/LinuxUtils.cpp -o CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.s
 
 Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o: /home/jdw/dev/potassium-engine/Engine/src/UUID.cpp
+Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/src/UUID.cpp
 Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o -MF CMakeFiles/potassium.dir/src/UUID.cpp.o.d -o CMakeFiles/potassium.dir/src/UUID.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/UUID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o -MF CMakeFiles/potassium.dir/src/UUID.cpp.o.d -o CMakeFiles/potassium.dir/src/UUID.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/UUID.cpp
 
 Engine/CMakeFiles/potassium.dir/src/UUID.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/src/UUID.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/src/UUID.cpp > CMakeFiles/potassium.dir/src/UUID.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/src/UUID.cpp > CMakeFiles/potassium.dir/src/UUID.cpp.i
 
 Engine/CMakeFiles/potassium.dir/src/UUID.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/src/UUID.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/src/UUID.cpp -o CMakeFiles/potassium.dir/src/UUID.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/src/UUID.cpp -o CMakeFiles/potassium.dir/src/UUID.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o: /home/jdw/dev/potassium-engine/Engine/vendor/glad/src/glad.c
+Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/glad/src/glad.c
 Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o -MF CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o.d -o CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o -MF CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o.d -o CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glad/src/glad.c
 
 Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/potassium.dir/vendor/glad/src/glad.c.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/glad/src/glad.c > CMakeFiles/potassium.dir/vendor/glad/src/glad.c.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/glad/src/glad.c > CMakeFiles/potassium.dir/vendor/glad/src/glad.c.i
 
 Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/potassium.dir/vendor/glad/src/glad.c.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/glad/src/glad.c -o CMakeFiles/potassium.dir/vendor/glad/src/glad.c.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/glad/src/glad.c -o CMakeFiles/potassium.dir/vendor/glad/src/glad.c.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_demo.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_demo.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_demo.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_demo.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_demo.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_demo.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_demo.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_draw.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_draw.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_draw.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_draw.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_draw.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_draw.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_draw.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_tables.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_tables.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_tables.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_tables.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_tables.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_tables.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_tables.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_widgets.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_widgets.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_widgets.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_widgets.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_widgets.cpp > CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_widgets.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_widgets.cpp -o CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp > CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp > CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp -o CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp -o CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o: /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp
+Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.i
 
 Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.s
 
 Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o: Engine/CMakeFiles/potassium.dir/flags.make
-Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o: /home/jdw/dev/potassium-engine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c
+Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o: /home/jdw/dev/PotassiumEngine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c
 Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o: Engine/CMakeFiles/potassium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o -MF CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o.d -o CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o -MF CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o.d -o CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c
 
 Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.i"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdw/dev/potassium-engine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c > CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.i
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jdw/dev/PotassiumEngine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c > CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.i
 
 Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.s"
-	cd /home/jdw/dev/potassium-engine/build/Engine && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdw/dev/potassium-engine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c -o CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.s
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jdw/dev/PotassiumEngine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c -o CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.s
 
 # Object files for target potassium
 potassium_OBJECTS = \
@@ -365,21 +365,22 @@ Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/im
 Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o
 Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/build.make
 Engine/libpotassium.so: Engine/vendor/glfw/src/libglfw3.a
+Engine/libpotassium.so: Engine/vendor/lua-5.4.8/liblua.a
 Engine/libpotassium.so: /usr/lib/x86_64-linux-gnu/librt.a
 Engine/libpotassium.so: /usr/lib/x86_64-linux-gnu/libm.so
 Engine/libpotassium.so: Engine/CMakeFiles/potassium.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library libpotassium.so"
-	cd /home/jdw/dev/potassium-engine/build/Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/potassium.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library libpotassium.so"
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/potassium.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Engine/CMakeFiles/potassium.dir/build: Engine/libpotassium.so
 .PHONY : Engine/CMakeFiles/potassium.dir/build
 
 Engine/CMakeFiles/potassium.dir/clean:
-	cd /home/jdw/dev/potassium-engine/build/Engine && $(CMAKE_COMMAND) -P CMakeFiles/potassium.dir/cmake_clean.cmake
+	cd /home/jdw/dev/PotassiumEngine/build/Engine && $(CMAKE_COMMAND) -P CMakeFiles/potassium.dir/cmake_clean.cmake
 .PHONY : Engine/CMakeFiles/potassium.dir/clean
 
 Engine/CMakeFiles/potassium.dir/depend:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/potassium-engine /home/jdw/dev/potassium-engine/Engine /home/jdw/dev/potassium-engine/build /home/jdw/dev/potassium-engine/build/Engine /home/jdw/dev/potassium-engine/build/Engine/CMakeFiles/potassium.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/PotassiumEngine /home/jdw/dev/PotassiumEngine/Engine /home/jdw/dev/PotassiumEngine/build /home/jdw/dev/PotassiumEngine/build/Engine /home/jdw/dev/PotassiumEngine/build/Engine/CMakeFiles/potassium.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Engine/CMakeFiles/potassium.dir/depend
 

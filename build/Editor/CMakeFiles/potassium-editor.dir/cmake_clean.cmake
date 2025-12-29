@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/potassium-editor.dir/src/Project.cpp.o"
+  "CMakeFiles/potassium-editor.dir/src/Project.cpp.o.d"
   "CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o"
   "CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o.d"
   "CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o"

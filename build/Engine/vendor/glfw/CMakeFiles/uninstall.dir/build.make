@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdw/dev/potassium-engine
+CMAKE_SOURCE_DIR = /home/jdw/dev/PotassiumEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdw/dev/potassium-engine/build
+CMAKE_BINARY_DIR = /home/jdw/dev/PotassiumEngine/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include Engine/vendor/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include Engine/vendor/glfw/CMakeFiles/uninstall.dir/progress.make
 
 Engine/vendor/glfw/CMakeFiles/uninstall:
-	cd /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw && /usr/bin/cmake -P /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/cmake_uninstall.cmake
+	cd /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw && /usr/bin/cmake -P /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/cmake_uninstall.cmake
 
 uninstall: Engine/vendor/glfw/CMakeFiles/uninstall
 uninstall: Engine/vendor/glfw/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ Engine/vendor/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : Engine/vendor/glfw/CMakeFiles/uninstall.dir/build
 
 Engine/vendor/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : Engine/vendor/glfw/CMakeFiles/uninstall.dir/clean
 
 Engine/vendor/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/potassium-engine /home/jdw/dev/potassium-engine/Engine/vendor/glfw /home/jdw/dev/potassium-engine/build /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/PotassiumEngine /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw /home/jdw/dev/PotassiumEngine/build /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Engine/vendor/glfw/CMakeFiles/uninstall.dir/depend
 

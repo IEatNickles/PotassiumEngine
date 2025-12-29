@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdw/dev/potassium-engine
+CMAKE_SOURCE_DIR = /home/jdw/dev/PotassiumEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdw/dev/potassium-engine/build
+CMAKE_BINARY_DIR = /home/jdw/dev/PotassiumEngine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/potassium-engine/build/CMakeFiles /home/jdw/dev/potassium-engine/build/Editor//CMakeFiles/progress.marks
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/potassium-engine/build/CMakeFiles 0
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/PotassiumEngine/build/CMakeFiles /home/jdw/dev/PotassiumEngine/build/Editor//CMakeFiles/progress.marks
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/PotassiumEngine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/clean
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/preinstall
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/preinstall
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Editor/CMakeFiles/potassium-editor.dir/rule:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/CMakeFiles/potassium-editor.dir/rule
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Editor/CMakeFiles/potassium-editor.dir/rule
 .PHONY : Editor/CMakeFiles/potassium-editor.dir/rule
 
 # Convenience name for target.
@@ -172,15 +172,39 @@ potassium-editor: Editor/CMakeFiles/potassium-editor.dir/rule
 
 # fast build rule for target.
 potassium-editor/fast:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/build
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/build
 .PHONY : potassium-editor/fast
+
+src/Project.o: src/Project.cpp.o
+.PHONY : src/Project.o
+
+# target to build an object file
+src/Project.cpp.o:
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o
+.PHONY : src/Project.cpp.o
+
+src/Project.i: src/Project.cpp.i
+.PHONY : src/Project.i
+
+# target to preprocess a source file
+src/Project.cpp.i:
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.i
+.PHONY : src/Project.cpp.i
+
+src/Project.s: src/Project.cpp.s
+.PHONY : src/Project.s
+
+# target to generate assembly for a file
+src/Project.cpp.s:
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.s
+.PHONY : src/Project.cpp.s
 
 src/editor_app.o: src/editor_app.cpp.o
 .PHONY : src/editor_app.o
 
 # target to build an object file
 src/editor_app.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o
 .PHONY : src/editor_app.cpp.o
 
 src/editor_app.i: src/editor_app.cpp.i
@@ -188,7 +212,7 @@ src/editor_app.i: src/editor_app.cpp.i
 
 # target to preprocess a source file
 src/editor_app.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.i
 .PHONY : src/editor_app.cpp.i
 
 src/editor_app.s: src/editor_app.cpp.s
@@ -196,7 +220,7 @@ src/editor_app.s: src/editor_app.cpp.s
 
 # target to generate assembly for a file
 src/editor_app.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.s
 .PHONY : src/editor_app.cpp.s
 
 src/scripting/CodeGen.o: src/scripting/CodeGen.cpp.o
@@ -204,7 +228,7 @@ src/scripting/CodeGen.o: src/scripting/CodeGen.cpp.o
 
 # target to build an object file
 src/scripting/CodeGen.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o
 .PHONY : src/scripting/CodeGen.cpp.o
 
 src/scripting/CodeGen.i: src/scripting/CodeGen.cpp.i
@@ -212,7 +236,7 @@ src/scripting/CodeGen.i: src/scripting/CodeGen.cpp.i
 
 # target to preprocess a source file
 src/scripting/CodeGen.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.i
 .PHONY : src/scripting/CodeGen.cpp.i
 
 src/scripting/CodeGen.s: src/scripting/CodeGen.cpp.s
@@ -220,7 +244,7 @@ src/scripting/CodeGen.s: src/scripting/CodeGen.cpp.s
 
 # target to generate assembly for a file
 src/scripting/CodeGen.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Editor/CMakeFiles/potassium-editor.dir/build.make Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.s
 .PHONY : src/scripting/CodeGen.cpp.s
 
 # Help Target
@@ -236,6 +260,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... potassium-editor"
+	@echo "... src/Project.o"
+	@echo "... src/Project.i"
+	@echo "... src/Project.s"
 	@echo "... src/editor_app.o"
 	@echo "... src/editor_app.i"
 	@echo "... src/editor_app.s"
@@ -253,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

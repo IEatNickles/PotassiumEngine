@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -o sandbox  -Wl,-rpath,/home/jdw/dev/potassium-engine/build/Engine ../Engine/libpotassium.so ../Engine/vendor/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 
+/usr/bin/clang++ -g CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -o sandbox  -Wl,-rpath,/home/jdw/dev/PotassiumEngine/build/Engine ../Engine/libpotassium.so ../Engine/vendor/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl ../Engine/vendor/lua-5.4.8/liblua.a 

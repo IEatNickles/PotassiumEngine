@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 project(potassium LANGUAGES C CXX)
 
 add_subdirectory(vendor/glfw)
+add_subdirectory(vendor/lua-5.4.8)
 
 add_compile_definitions(K_API_EXPORT)
 if(WIN32)
@@ -43,7 +44,7 @@ set(SRC
 )
 add_library(${PROJECT_NAME} SHARED ${SRC})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC glfw)
+target_link_libraries(${PROJECT_NAME} PUBLIC glfw lua)
 
 target_include_directories(${PROJECT_NAME}
   PUBLIC
@@ -53,6 +54,7 @@ target_include_directories(${PROJECT_NAME}
   ${CMAKE_SOURCE_DIR}/Engine/vendor/entt/
   ${CMAKE_SOURCE_DIR}/Engine/vendor/imgui/
   ${CMAKE_SOURCE_DIR}/Engine/vendor/json/
+  ${CMAKE_SOURCE_DIR}/Engine/vendor/lua-5.4.8/src/
 
   PRIVATE
   ${CMAKE_SOURCE_DIR}/Engine/vendor/glfw/include/

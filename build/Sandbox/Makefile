@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdw/dev/potassium-engine
+CMAKE_SOURCE_DIR = /home/jdw/dev/PotassiumEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdw/dev/potassium-engine/build
+CMAKE_BINARY_DIR = /home/jdw/dev/PotassiumEngine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/potassium-engine/build/CMakeFiles /home/jdw/dev/potassium-engine/build/Sandbox//CMakeFiles/progress.marks
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/potassium-engine/build/CMakeFiles 0
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/PotassiumEngine/build/CMakeFiles /home/jdw/dev/PotassiumEngine/build/Sandbox//CMakeFiles/progress.marks
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/PotassiumEngine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/clean
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/preinstall
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/preinstall
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Sandbox/CMakeFiles/sandbox.dir/rule:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/sandbox.dir/rule
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/sandbox.dir/rule
 .PHONY : Sandbox/CMakeFiles/sandbox.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ sandbox: Sandbox/CMakeFiles/sandbox.dir/rule
 
 # fast build rule for target.
 sandbox/fast:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/build
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/build
 .PHONY : sandbox/fast
 
 src/SandboxApp.o: src/SandboxApp.cpp.o
@@ -180,7 +180,7 @@ src/SandboxApp.o: src/SandboxApp.cpp.o
 
 # target to build an object file
 src/SandboxApp.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o
 .PHONY : src/SandboxApp.cpp.o
 
 src/SandboxApp.i: src/SandboxApp.cpp.i
@@ -188,7 +188,7 @@ src/SandboxApp.i: src/SandboxApp.cpp.i
 
 # target to preprocess a source file
 src/SandboxApp.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.i
 .PHONY : src/SandboxApp.cpp.i
 
 src/SandboxApp.s: src/SandboxApp.cpp.s
@@ -196,7 +196,7 @@ src/SandboxApp.s: src/SandboxApp.cpp.s
 
 # target to generate assembly for a file
 src/SandboxApp.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/sandbox.dir/build.make Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.s
 .PHONY : src/SandboxApp.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

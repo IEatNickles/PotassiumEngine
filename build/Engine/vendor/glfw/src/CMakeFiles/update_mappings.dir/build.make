@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdw/dev/potassium-engine
+CMAKE_SOURCE_DIR = /home/jdw/dev/PotassiumEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdw/dev/potassium-engine/build
+CMAKE_BINARY_DIR = /home/jdw/dev/PotassiumEngine/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.ma
 include Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 Engine/vendor/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src && /usr/bin/cmake -P /home/jdw/dev/potassium-engine/Engine/vendor/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src && /usr/bin/cmake -P /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: Engine/vendor/glfw/src/CMakeFiles/update_mappings
 update_mappings: Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/build
 
 Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/potassium-engine /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src /home/jdw/dev/potassium-engine/build /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src /home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/PotassiumEngine /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src /home/jdw/dev/PotassiumEngine/build /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src /home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Engine/vendor/glfw/src/CMakeFiles/update_mappings.dir/depend
 

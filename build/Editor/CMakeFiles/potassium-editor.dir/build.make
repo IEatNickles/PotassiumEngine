@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdw/dev/potassium-engine
+CMAKE_SOURCE_DIR = /home/jdw/dev/PotassiumEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdw/dev/potassium-engine/build
+CMAKE_BINARY_DIR = /home/jdw/dev/PotassiumEngine/build
 
 # Include any dependencies generated for this target.
 include Editor/CMakeFiles/potassium-editor.dir/depend.make
@@ -70,61 +70,78 @@ include Editor/CMakeFiles/potassium-editor.dir/progress.make
 include Editor/CMakeFiles/potassium-editor.dir/flags.make
 
 Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o: Editor/CMakeFiles/potassium-editor.dir/flags.make
-Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o: /home/jdw/dev/potassium-engine/Editor/src/editor_app.cpp
+Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o: /home/jdw/dev/PotassiumEngine/Editor/src/editor_app.cpp
 Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o: Editor/CMakeFiles/potassium-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o -MF CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o.d -o CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o -c /home/jdw/dev/potassium-engine/Editor/src/editor_app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o -MF CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o.d -o CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o -c /home/jdw/dev/PotassiumEngine/Editor/src/editor_app.cpp
 
 Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium-editor.dir/src/editor_app.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Editor/src/editor_app.cpp > CMakeFiles/potassium-editor.dir/src/editor_app.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Editor/src/editor_app.cpp > CMakeFiles/potassium-editor.dir/src/editor_app.cpp.i
 
 Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium-editor.dir/src/editor_app.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Editor/src/editor_app.cpp -o CMakeFiles/potassium-editor.dir/src/editor_app.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Editor/src/editor_app.cpp -o CMakeFiles/potassium-editor.dir/src/editor_app.cpp.s
 
 Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o: Editor/CMakeFiles/potassium-editor.dir/flags.make
-Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o: /home/jdw/dev/potassium-engine/Editor/src/scripting/CodeGen.cpp
+Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o: /home/jdw/dev/PotassiumEngine/Editor/src/scripting/CodeGen.cpp
 Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o: Editor/CMakeFiles/potassium-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o"
-	cd /home/jdw/dev/potassium-engine/build/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o -MF CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o.d -o CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o -c /home/jdw/dev/potassium-engine/Editor/src/scripting/CodeGen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o -MF CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o.d -o CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o -c /home/jdw/dev/PotassiumEngine/Editor/src/scripting/CodeGen.cpp
 
 Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.i"
-	cd /home/jdw/dev/potassium-engine/build/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/potassium-engine/Editor/src/scripting/CodeGen.cpp > CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Editor/src/scripting/CodeGen.cpp > CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.i
 
 Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.s"
-	cd /home/jdw/dev/potassium-engine/build/Editor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/potassium-engine/Editor/src/scripting/CodeGen.cpp -o CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Editor/src/scripting/CodeGen.cpp -o CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.s
+
+Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o: Editor/CMakeFiles/potassium-editor.dir/flags.make
+Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o: /home/jdw/dev/PotassiumEngine/Editor/src/Project.cpp
+Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o: Editor/CMakeFiles/potassium-editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o"
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o -MF CMakeFiles/potassium-editor.dir/src/Project.cpp.o.d -o CMakeFiles/potassium-editor.dir/src/Project.cpp.o -c /home/jdw/dev/PotassiumEngine/Editor/src/Project.cpp
+
+Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/potassium-editor.dir/src/Project.cpp.i"
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdw/dev/PotassiumEngine/Editor/src/Project.cpp > CMakeFiles/potassium-editor.dir/src/Project.cpp.i
+
+Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/potassium-editor.dir/src/Project.cpp.s"
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdw/dev/PotassiumEngine/Editor/src/Project.cpp -o CMakeFiles/potassium-editor.dir/src/Project.cpp.s
 
 # Object files for target potassium-editor
 potassium__editor_OBJECTS = \
 "CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o" \
-"CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o"
+"CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o" \
+"CMakeFiles/potassium-editor.dir/src/Project.cpp.o"
 
 # External object files for target potassium-editor
 potassium__editor_EXTERNAL_OBJECTS =
 
 Editor/potassium-editor: Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o
 Editor/potassium-editor: Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o
+Editor/potassium-editor: Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o
 Editor/potassium-editor: Editor/CMakeFiles/potassium-editor.dir/build.make
 Editor/potassium-editor: Engine/libpotassium.so
 Editor/potassium-editor: Engine/vendor/glfw/src/libglfw3.a
 Editor/potassium-editor: /usr/lib/x86_64-linux-gnu/librt.a
 Editor/potassium-editor: /usr/lib/x86_64-linux-gnu/libm.so
+Editor/potassium-editor: Engine/vendor/lua-5.4.8/liblua.a
 Editor/potassium-editor: Editor/CMakeFiles/potassium-editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jdw/dev/potassium-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable potassium-editor"
-	cd /home/jdw/dev/potassium-engine/build/Editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/potassium-editor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jdw/dev/PotassiumEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable potassium-editor"
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/potassium-editor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Editor/CMakeFiles/potassium-editor.dir/build: Editor/potassium-editor
 .PHONY : Editor/CMakeFiles/potassium-editor.dir/build
 
 Editor/CMakeFiles/potassium-editor.dir/clean:
-	cd /home/jdw/dev/potassium-engine/build/Editor && $(CMAKE_COMMAND) -P CMakeFiles/potassium-editor.dir/cmake_clean.cmake
+	cd /home/jdw/dev/PotassiumEngine/build/Editor && $(CMAKE_COMMAND) -P CMakeFiles/potassium-editor.dir/cmake_clean.cmake
 .PHONY : Editor/CMakeFiles/potassium-editor.dir/clean
 
 Editor/CMakeFiles/potassium-editor.dir/depend:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/potassium-engine /home/jdw/dev/potassium-engine/Editor /home/jdw/dev/potassium-engine/build /home/jdw/dev/potassium-engine/build/Editor /home/jdw/dev/potassium-engine/build/Editor/CMakeFiles/potassium-editor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdw/dev/PotassiumEngine /home/jdw/dev/PotassiumEngine/Editor /home/jdw/dev/PotassiumEngine/build /home/jdw/dev/PotassiumEngine/build/Editor /home/jdw/dev/PotassiumEngine/build/Editor/CMakeFiles/potassium-editor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Editor/CMakeFiles/potassium-editor.dir/depend
 

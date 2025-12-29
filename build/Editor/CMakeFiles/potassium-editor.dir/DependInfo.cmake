@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jdw/dev/potassium-engine/Editor/src/editor_app.cpp" "Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o" "gcc" "Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o.d"
-  "/home/jdw/dev/potassium-engine/Editor/src/scripting/CodeGen.cpp" "Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o" "gcc" "Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o.d"
+  "/home/jdw/dev/PotassiumEngine/Editor/src/Project.cpp" "Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o" "gcc" "Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o.d"
+  "/home/jdw/dev/PotassiumEngine/Editor/src/editor_app.cpp" "Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o" "gcc" "Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o.d"
+  "/home/jdw/dev/PotassiumEngine/Editor/src/scripting/CodeGen.cpp" "Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o" "gcc" "Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

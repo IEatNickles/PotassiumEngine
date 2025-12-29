@@ -13,8 +13,6 @@
 #include "scripting/ScriptEngine.hpp"
 
 namespace KEngine {
-using Entity = uint64_t;
-
 enum class SystemType { Start, Update, End };
 
 class SystemRegistry {

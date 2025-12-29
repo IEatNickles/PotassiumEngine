@@ -11,6 +11,8 @@
 #include <string_view>
 #include <vector>
 
+#include "Scene.hpp"
+
 enum CppTokenType {
   CPP_INVALID,
   CPP_EOF,

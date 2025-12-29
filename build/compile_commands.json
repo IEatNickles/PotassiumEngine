@@ -1,284 +1,494 @@
 [
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/main.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/main.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/main.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/main.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/main.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/main.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/main.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Window.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Window.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/Window.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Window.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Window.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/Window.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/Window.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Scene.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Scene.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/Scene.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Scene.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Scene.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/Scene.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Renderer.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Renderer.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/Renderer.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Renderer.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Renderer.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/Renderer.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Shader.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/Shader.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/Shader.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/Shader.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/Shader.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/Shader.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/scripting/ScriptEngine.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/scripting/ScriptEngine.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/scripting/ScriptEngine.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/scripting/ScriptEngine.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/utils/LinuxUtils.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/utils/LinuxUtils.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/utils/LinuxUtils.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/utils/LinuxUtils.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/UUID.cpp.o -c /home/jdw/dev/potassium-engine/Engine/src/UUID.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/src/UUID.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/src/UUID.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/src/UUID.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/src/UUID.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/cc -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -fPIC -o CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glad/src/glad.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glad/src/glad.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -fPIC -o CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glad/src/glad.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/src/glad.c",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_demo.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_demo.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_demo.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_demo.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_draw.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_draw.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_draw.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_draw.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_tables.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_tables.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_tables.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_tables.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_widgets.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/imgui_widgets.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_widgets.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/imgui_widgets.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/misc/cpp/imgui_stdlib.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_opengl3.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/c++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o -c /home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang++ -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -std=gnu++20 -fPIC -o CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui/backends/imgui_impl_glfw.cpp",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine",
-  "command": "/usr/bin/cc -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glad/include -fPIC -o CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine",
+  "command": "/usr/bin/clang -DK_API_EXPORT -DK_PLATFORM_LINUX -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -Dpotassium_EXPORTS -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glad/include -g -fPIC -o CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/tinyfiledialogs/tinyfiledialogs.c",
   "output": "Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/context.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/context.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/context.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/context.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/init.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/init.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/init.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/init.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/input.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/input.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/input.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/input.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/monitor.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/monitor.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/monitor.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/monitor.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/platform.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/platform.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/platform.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/platform.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/vulkan.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/vulkan.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/vulkan.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/vulkan.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/window.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/window.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/window.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/window.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/egl_context.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/egl_context.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/egl_context.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/egl_context.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/osmesa_context.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/osmesa_context.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/osmesa_context.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/osmesa_context.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_init.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_init.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_init.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_init.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_monitor.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_monitor.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_monitor.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_monitor.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_window.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_window.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_window.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_window.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_joystick.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/null_joystick.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_joystick.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/null_joystick.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_module.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_module.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_module.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_module.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_time.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_time.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_time.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_time.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_thread.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_thread.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_thread.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_thread.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/x11_init.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/x11_init.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/x11_init.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/x11_init.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/x11_monitor.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/x11_monitor.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/x11_monitor.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/x11_monitor.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/x11_window.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/x11_window.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/x11_window.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/x11_window.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/xkb_unicode.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/xkb_unicode.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/xkb_unicode.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/xkb_unicode.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/glx_context.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/glx_context.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/glx_context.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/glx_context.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/wl_init.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/wl_init.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/wl_init.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/wl_init.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/wl_monitor.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/wl_monitor.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/wl_monitor.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/wl_monitor.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/wl_window.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/wl_window.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/wl_window.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/wl_window.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/linux_joystick.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/linux_joystick.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/linux_joystick.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/linux_joystick.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src",
-  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src -I/home/jdw/dev/potassium-engine/build/Engine/vendor/glfw/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_poll.c",
-  "file": "/home/jdw/dev/potassium-engine/Engine/vendor/glfw/src/posix_poll.c",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src",
+  "command": "/usr/bin/clang -DHAVE_MEMFD_CREATE -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src -I/home/jdw/dev/PotassiumEngine/build/Engine/vendor/glfw/src -g -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_poll.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/src/posix_poll.c",
   "output": "Engine/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Sandbox",
-  "command": "/usr/bin/c++ -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -I/home/jdw/dev/potassium-engine/Sandbox/src -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -std=gnu++20 -o CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -c /home/jdw/dev/potassium-engine/Sandbox/src/SandboxApp.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Sandbox/src/SandboxApp.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lapi.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lapi.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lapi.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lapi.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lauxlib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lauxlib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lauxlib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lauxlib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lbaselib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lbaselib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lbaselib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lbaselib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lcode.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lcode.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lcode.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lcode.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lcorolib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lcorolib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lcorolib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lcorolib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lctype.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lctype.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lctype.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lctype.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/ldblib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldblib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldblib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/ldblib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/ldebug.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldebug.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldebug.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/ldebug.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/ldo.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldo.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldo.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/ldo.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/ldump.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldump.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ldump.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/ldump.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lfunc.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lfunc.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lfunc.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lfunc.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lgc.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lgc.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lgc.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lgc.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/linit.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/linit.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/linit.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/linit.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/liolib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/liolib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/liolib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/liolib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/llex.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/llex.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/llex.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/llex.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lmathlib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lmathlib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lmathlib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lmathlib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lmem.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lmem.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lmem.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lmem.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/loadlib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/loadlib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/loadlib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/loadlib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lobject.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lobject.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lobject.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lobject.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lopcodes.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lopcodes.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lopcodes.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lopcodes.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/loslib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/loslib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/loslib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/loslib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lparser.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lparser.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lparser.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lparser.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lstate.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lstate.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lstate.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lstate.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lstring.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lstring.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lstring.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lstring.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lstrlib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lstrlib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lstrlib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lstrlib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/ltable.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ltable.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ltable.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/ltable.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/ltablib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ltablib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ltablib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/ltablib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/ltm.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ltm.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/ltm.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/ltm.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lua.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lua.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lua.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lua.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/luac.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/luac.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/luac.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/luac.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lundump.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lundump.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lundump.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lundump.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lutf8lib.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lutf8lib.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lutf8lib.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lutf8lib.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lvm.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lvm.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lvm.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lvm.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Engine/vendor/lua-5.4.8",
+  "command": "/usr/bin/clang -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0  -g -o CMakeFiles/lua.dir/src/lzio.c.o -c /home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lzio.c",
+  "file": "/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src/lzio.c",
+  "output": "Engine/vendor/lua-5.4.8/CMakeFiles/lua.dir/src/lzio.c.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Sandbox",
+  "command": "/usr/bin/clang++ -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -I/home/jdw/dev/PotassiumEngine/Sandbox/src -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -g -std=gnu++20 -o CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -c /home/jdw/dev/PotassiumEngine/Sandbox/src/SandboxApp.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Sandbox/src/SandboxApp.cpp",
   "output": "Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Editor",
-  "command": "/usr/bin/c++ -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -I/home/jdw/dev/potassium-engine/Editor/include -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/tinyfiledialogs -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/glad/include -I/home/jdw/dev/potassium-engine/Editor/../Engine/include -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -std=gnu++20 -o CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o -c /home/jdw/dev/potassium-engine/Editor/src/editor_app.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Editor/src/editor_app.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Editor",
+  "command": "/usr/bin/clang++ -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -I/home/jdw/dev/PotassiumEngine/Editor/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/tinyfiledialogs -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/glad/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -g -std=gnu++20 -o CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o -c /home/jdw/dev/PotassiumEngine/Editor/src/editor_app.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Editor/src/editor_app.cpp",
   "output": "Editor/CMakeFiles/potassium-editor.dir/src/editor_app.cpp.o"
 },
 {
-  "directory": "/home/jdw/dev/potassium-engine/build/Editor",
-  "command": "/usr/bin/c++ -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -I/home/jdw/dev/potassium-engine/Editor/include -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/tinyfiledialogs -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/glfw/include -I/home/jdw/dev/potassium-engine/Editor/../Engine/vendor/glad/include -I/home/jdw/dev/potassium-engine/Editor/../Engine/include -I/home/jdw/dev/potassium-engine/Engine/include -I/home/jdw/dev/potassium-engine/Engine/vendor/glm -I/home/jdw/dev/potassium-engine/Engine/vendor/entt -I/home/jdw/dev/potassium-engine/Engine/vendor/imgui -I/home/jdw/dev/potassium-engine/Engine/vendor/json -I/home/jdw/dev/potassium-engine/Engine/vendor/glfw/include -std=gnu++20 -o CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o -c /home/jdw/dev/potassium-engine/Editor/src/scripting/CodeGen.cpp",
-  "file": "/home/jdw/dev/potassium-engine/Editor/src/scripting/CodeGen.cpp",
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Editor",
+  "command": "/usr/bin/clang++ -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -I/home/jdw/dev/PotassiumEngine/Editor/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/tinyfiledialogs -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/glad/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -g -std=gnu++20 -o CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o -c /home/jdw/dev/PotassiumEngine/Editor/src/scripting/CodeGen.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Editor/src/scripting/CodeGen.cpp",
   "output": "Editor/CMakeFiles/potassium-editor.dir/src/scripting/CodeGen.cpp.o"
+},
+{
+  "directory": "/home/jdw/dev/PotassiumEngine/build/Editor",
+  "command": "/usr/bin/clang++ -DK_VERSION_MAJOR=0 -DK_VERSION_MINOR=0 -I/home/jdw/dev/PotassiumEngine/Editor/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/tinyfiledialogs -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/glfw/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/vendor/glad/include -I/home/jdw/dev/PotassiumEngine/Editor/../Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/include -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glm -I/home/jdw/dev/PotassiumEngine/Engine/vendor/entt -I/home/jdw/dev/PotassiumEngine/Engine/vendor/imgui -I/home/jdw/dev/PotassiumEngine/Engine/vendor/json -I/home/jdw/dev/PotassiumEngine/Engine/vendor/lua-5.4.8/src -I/home/jdw/dev/PotassiumEngine/Engine/vendor/glfw/include -g -std=gnu++20 -o CMakeFiles/potassium-editor.dir/src/Project.cpp.o -c /home/jdw/dev/PotassiumEngine/Editor/src/Project.cpp",
+  "file": "/home/jdw/dev/PotassiumEngine/Editor/src/Project.cpp",
+  "output": "Editor/CMakeFiles/potassium-editor.dir/src/Project.cpp.o"
 }
 ]

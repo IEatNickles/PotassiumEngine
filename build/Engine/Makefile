@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdw/dev/potassium-engine
+CMAKE_SOURCE_DIR = /home/jdw/dev/PotassiumEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdw/dev/potassium-engine/build
+CMAKE_BINARY_DIR = /home/jdw/dev/PotassiumEngine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/potassium-engine/build/CMakeFiles /home/jdw/dev/potassium-engine/build/Engine//CMakeFiles/progress.marks
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/potassium-engine/build/CMakeFiles 0
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/PotassiumEngine/build/CMakeFiles /home/jdw/dev/PotassiumEngine/build/Engine//CMakeFiles/progress.marks
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jdw/dev/PotassiumEngine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/clean
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/preinstall
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/preinstall
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Engine/CMakeFiles/potassium.dir/rule:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/CMakeFiles/potassium.dir/rule
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine/CMakeFiles/potassium.dir/rule
 .PHONY : Engine/CMakeFiles/potassium.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ potassium: Engine/CMakeFiles/potassium.dir/rule
 
 # fast build rule for target.
 potassium/fast:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/build
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/build
 .PHONY : potassium/fast
 
 src/Renderer.o: src/Renderer.cpp.o
@@ -180,7 +180,7 @@ src/Renderer.o: src/Renderer.cpp.o
 
 # target to build an object file
 src/Renderer.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.o
 .PHONY : src/Renderer.cpp.o
 
 src/Renderer.i: src/Renderer.cpp.i
@@ -188,7 +188,7 @@ src/Renderer.i: src/Renderer.cpp.i
 
 # target to preprocess a source file
 src/Renderer.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.i
 .PHONY : src/Renderer.cpp.i
 
 src/Renderer.s: src/Renderer.cpp.s
@@ -196,7 +196,7 @@ src/Renderer.s: src/Renderer.cpp.s
 
 # target to generate assembly for a file
 src/Renderer.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
 src/Scene.o: src/Scene.cpp.o
@@ -204,7 +204,7 @@ src/Scene.o: src/Scene.cpp.o
 
 # target to build an object file
 src/Scene.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Scene.cpp.o
 .PHONY : src/Scene.cpp.o
 
 src/Scene.i: src/Scene.cpp.i
@@ -212,7 +212,7 @@ src/Scene.i: src/Scene.cpp.i
 
 # target to preprocess a source file
 src/Scene.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Scene.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Scene.cpp.i
 .PHONY : src/Scene.cpp.i
 
 src/Scene.s: src/Scene.cpp.s
@@ -220,7 +220,7 @@ src/Scene.s: src/Scene.cpp.s
 
 # target to generate assembly for a file
 src/Scene.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Scene.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Scene.cpp.s
 .PHONY : src/Scene.cpp.s
 
 src/Shader.o: src/Shader.cpp.o
@@ -228,7 +228,7 @@ src/Shader.o: src/Shader.cpp.o
 
 # target to build an object file
 src/Shader.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Shader.cpp.o
 .PHONY : src/Shader.cpp.o
 
 src/Shader.i: src/Shader.cpp.i
@@ -236,7 +236,7 @@ src/Shader.i: src/Shader.cpp.i
 
 # target to preprocess a source file
 src/Shader.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Shader.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Shader.cpp.i
 .PHONY : src/Shader.cpp.i
 
 src/Shader.s: src/Shader.cpp.s
@@ -244,7 +244,7 @@ src/Shader.s: src/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Shader.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Shader.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
 src/UUID.o: src/UUID.cpp.o
@@ -252,7 +252,7 @@ src/UUID.o: src/UUID.cpp.o
 
 # target to build an object file
 src/UUID.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/UUID.cpp.o
 .PHONY : src/UUID.cpp.o
 
 src/UUID.i: src/UUID.cpp.i
@@ -260,7 +260,7 @@ src/UUID.i: src/UUID.cpp.i
 
 # target to preprocess a source file
 src/UUID.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/UUID.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/UUID.cpp.i
 .PHONY : src/UUID.cpp.i
 
 src/UUID.s: src/UUID.cpp.s
@@ -268,7 +268,7 @@ src/UUID.s: src/UUID.cpp.s
 
 # target to generate assembly for a file
 src/UUID.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/UUID.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/UUID.cpp.s
 .PHONY : src/UUID.cpp.s
 
 src/Window.o: src/Window.cpp.o
@@ -276,7 +276,7 @@ src/Window.o: src/Window.cpp.o
 
 # target to build an object file
 src/Window.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Window.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Window.cpp.o
 .PHONY : src/Window.cpp.o
 
 src/Window.i: src/Window.cpp.i
@@ -284,7 +284,7 @@ src/Window.i: src/Window.cpp.i
 
 # target to preprocess a source file
 src/Window.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Window.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Window.cpp.i
 .PHONY : src/Window.cpp.i
 
 src/Window.s: src/Window.cpp.s
@@ -292,7 +292,7 @@ src/Window.s: src/Window.cpp.s
 
 # target to generate assembly for a file
 src/Window.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Window.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/Window.cpp.s
 .PHONY : src/Window.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -300,7 +300,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/main.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -308,7 +308,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/main.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -316,7 +316,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/main.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/scripting/ScriptEngine.o: src/scripting/ScriptEngine.cpp.o
@@ -324,7 +324,7 @@ src/scripting/ScriptEngine.o: src/scripting/ScriptEngine.cpp.o
 
 # target to build an object file
 src/scripting/ScriptEngine.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.o
 .PHONY : src/scripting/ScriptEngine.cpp.o
 
 src/scripting/ScriptEngine.i: src/scripting/ScriptEngine.cpp.i
@@ -332,7 +332,7 @@ src/scripting/ScriptEngine.i: src/scripting/ScriptEngine.cpp.i
 
 # target to preprocess a source file
 src/scripting/ScriptEngine.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.i
 .PHONY : src/scripting/ScriptEngine.cpp.i
 
 src/scripting/ScriptEngine.s: src/scripting/ScriptEngine.cpp.s
@@ -340,7 +340,7 @@ src/scripting/ScriptEngine.s: src/scripting/ScriptEngine.cpp.s
 
 # target to generate assembly for a file
 src/scripting/ScriptEngine.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/scripting/ScriptEngine.cpp.s
 .PHONY : src/scripting/ScriptEngine.cpp.s
 
 src/utils/LinuxUtils.o: src/utils/LinuxUtils.cpp.o
@@ -348,7 +348,7 @@ src/utils/LinuxUtils.o: src/utils/LinuxUtils.cpp.o
 
 # target to build an object file
 src/utils/LinuxUtils.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.o
 .PHONY : src/utils/LinuxUtils.cpp.o
 
 src/utils/LinuxUtils.i: src/utils/LinuxUtils.cpp.i
@@ -356,7 +356,7 @@ src/utils/LinuxUtils.i: src/utils/LinuxUtils.cpp.i
 
 # target to preprocess a source file
 src/utils/LinuxUtils.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.i
 .PHONY : src/utils/LinuxUtils.cpp.i
 
 src/utils/LinuxUtils.s: src/utils/LinuxUtils.cpp.s
@@ -364,7 +364,7 @@ src/utils/LinuxUtils.s: src/utils/LinuxUtils.cpp.s
 
 # target to generate assembly for a file
 src/utils/LinuxUtils.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/src/utils/LinuxUtils.cpp.s
 .PHONY : src/utils/LinuxUtils.cpp.s
 
 vendor/glad/src/glad.o: vendor/glad/src/glad.c.o
@@ -372,7 +372,7 @@ vendor/glad/src/glad.o: vendor/glad/src/glad.c.o
 
 # target to build an object file
 vendor/glad/src/glad.c.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.o
 .PHONY : vendor/glad/src/glad.c.o
 
 vendor/glad/src/glad.i: vendor/glad/src/glad.c.i
@@ -380,7 +380,7 @@ vendor/glad/src/glad.i: vendor/glad/src/glad.c.i
 
 # target to preprocess a source file
 vendor/glad/src/glad.c.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.i
 .PHONY : vendor/glad/src/glad.c.i
 
 vendor/glad/src/glad.s: vendor/glad/src/glad.c.s
@@ -388,7 +388,7 @@ vendor/glad/src/glad.s: vendor/glad/src/glad.c.s
 
 # target to generate assembly for a file
 vendor/glad/src/glad.c.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/glad/src/glad.c.s
 .PHONY : vendor/glad/src/glad.c.s
 
 vendor/imgui/backends/imgui_impl_glfw.o: vendor/imgui/backends/imgui_impl_glfw.cpp.o
@@ -396,7 +396,7 @@ vendor/imgui/backends/imgui_impl_glfw.o: vendor/imgui/backends/imgui_impl_glfw.c
 
 # target to build an object file
 vendor/imgui/backends/imgui_impl_glfw.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.o
 .PHONY : vendor/imgui/backends/imgui_impl_glfw.cpp.o
 
 vendor/imgui/backends/imgui_impl_glfw.i: vendor/imgui/backends/imgui_impl_glfw.cpp.i
@@ -404,7 +404,7 @@ vendor/imgui/backends/imgui_impl_glfw.i: vendor/imgui/backends/imgui_impl_glfw.c
 
 # target to preprocess a source file
 vendor/imgui/backends/imgui_impl_glfw.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.i
 .PHONY : vendor/imgui/backends/imgui_impl_glfw.cpp.i
 
 vendor/imgui/backends/imgui_impl_glfw.s: vendor/imgui/backends/imgui_impl_glfw.cpp.s
@@ -412,7 +412,7 @@ vendor/imgui/backends/imgui_impl_glfw.s: vendor/imgui/backends/imgui_impl_glfw.c
 
 # target to generate assembly for a file
 vendor/imgui/backends/imgui_impl_glfw.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_glfw.cpp.s
 .PHONY : vendor/imgui/backends/imgui_impl_glfw.cpp.s
 
 vendor/imgui/backends/imgui_impl_opengl3.o: vendor/imgui/backends/imgui_impl_opengl3.cpp.o
@@ -420,7 +420,7 @@ vendor/imgui/backends/imgui_impl_opengl3.o: vendor/imgui/backends/imgui_impl_ope
 
 # target to build an object file
 vendor/imgui/backends/imgui_impl_opengl3.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.o
 .PHONY : vendor/imgui/backends/imgui_impl_opengl3.cpp.o
 
 vendor/imgui/backends/imgui_impl_opengl3.i: vendor/imgui/backends/imgui_impl_opengl3.cpp.i
@@ -428,7 +428,7 @@ vendor/imgui/backends/imgui_impl_opengl3.i: vendor/imgui/backends/imgui_impl_ope
 
 # target to preprocess a source file
 vendor/imgui/backends/imgui_impl_opengl3.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.i
 .PHONY : vendor/imgui/backends/imgui_impl_opengl3.cpp.i
 
 vendor/imgui/backends/imgui_impl_opengl3.s: vendor/imgui/backends/imgui_impl_opengl3.cpp.s
@@ -436,7 +436,7 @@ vendor/imgui/backends/imgui_impl_opengl3.s: vendor/imgui/backends/imgui_impl_ope
 
 # target to generate assembly for a file
 vendor/imgui/backends/imgui_impl_opengl3.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/backends/imgui_impl_opengl3.cpp.s
 .PHONY : vendor/imgui/backends/imgui_impl_opengl3.cpp.s
 
 vendor/imgui/imgui.o: vendor/imgui/imgui.cpp.o
@@ -444,7 +444,7 @@ vendor/imgui/imgui.o: vendor/imgui/imgui.cpp.o
 
 # target to build an object file
 vendor/imgui/imgui.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.o
 .PHONY : vendor/imgui/imgui.cpp.o
 
 vendor/imgui/imgui.i: vendor/imgui/imgui.cpp.i
@@ -452,7 +452,7 @@ vendor/imgui/imgui.i: vendor/imgui/imgui.cpp.i
 
 # target to preprocess a source file
 vendor/imgui/imgui.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.i
 .PHONY : vendor/imgui/imgui.cpp.i
 
 vendor/imgui/imgui.s: vendor/imgui/imgui.cpp.s
@@ -460,7 +460,7 @@ vendor/imgui/imgui.s: vendor/imgui/imgui.cpp.s
 
 # target to generate assembly for a file
 vendor/imgui/imgui.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui.cpp.s
 .PHONY : vendor/imgui/imgui.cpp.s
 
 vendor/imgui/imgui_demo.o: vendor/imgui/imgui_demo.cpp.o
@@ -468,7 +468,7 @@ vendor/imgui/imgui_demo.o: vendor/imgui/imgui_demo.cpp.o
 
 # target to build an object file
 vendor/imgui/imgui_demo.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.o
 .PHONY : vendor/imgui/imgui_demo.cpp.o
 
 vendor/imgui/imgui_demo.i: vendor/imgui/imgui_demo.cpp.i
@@ -476,7 +476,7 @@ vendor/imgui/imgui_demo.i: vendor/imgui/imgui_demo.cpp.i
 
 # target to preprocess a source file
 vendor/imgui/imgui_demo.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.i
 .PHONY : vendor/imgui/imgui_demo.cpp.i
 
 vendor/imgui/imgui_demo.s: vendor/imgui/imgui_demo.cpp.s
@@ -484,7 +484,7 @@ vendor/imgui/imgui_demo.s: vendor/imgui/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 vendor/imgui/imgui_demo.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_demo.cpp.s
 .PHONY : vendor/imgui/imgui_demo.cpp.s
 
 vendor/imgui/imgui_draw.o: vendor/imgui/imgui_draw.cpp.o
@@ -492,7 +492,7 @@ vendor/imgui/imgui_draw.o: vendor/imgui/imgui_draw.cpp.o
 
 # target to build an object file
 vendor/imgui/imgui_draw.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.o
 .PHONY : vendor/imgui/imgui_draw.cpp.o
 
 vendor/imgui/imgui_draw.i: vendor/imgui/imgui_draw.cpp.i
@@ -500,7 +500,7 @@ vendor/imgui/imgui_draw.i: vendor/imgui/imgui_draw.cpp.i
 
 # target to preprocess a source file
 vendor/imgui/imgui_draw.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.i
 .PHONY : vendor/imgui/imgui_draw.cpp.i
 
 vendor/imgui/imgui_draw.s: vendor/imgui/imgui_draw.cpp.s
@@ -508,7 +508,7 @@ vendor/imgui/imgui_draw.s: vendor/imgui/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 vendor/imgui/imgui_draw.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_draw.cpp.s
 .PHONY : vendor/imgui/imgui_draw.cpp.s
 
 vendor/imgui/imgui_tables.o: vendor/imgui/imgui_tables.cpp.o
@@ -516,7 +516,7 @@ vendor/imgui/imgui_tables.o: vendor/imgui/imgui_tables.cpp.o
 
 # target to build an object file
 vendor/imgui/imgui_tables.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.o
 .PHONY : vendor/imgui/imgui_tables.cpp.o
 
 vendor/imgui/imgui_tables.i: vendor/imgui/imgui_tables.cpp.i
@@ -524,7 +524,7 @@ vendor/imgui/imgui_tables.i: vendor/imgui/imgui_tables.cpp.i
 
 # target to preprocess a source file
 vendor/imgui/imgui_tables.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.i
 .PHONY : vendor/imgui/imgui_tables.cpp.i
 
 vendor/imgui/imgui_tables.s: vendor/imgui/imgui_tables.cpp.s
@@ -532,7 +532,7 @@ vendor/imgui/imgui_tables.s: vendor/imgui/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 vendor/imgui/imgui_tables.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_tables.cpp.s
 .PHONY : vendor/imgui/imgui_tables.cpp.s
 
 vendor/imgui/imgui_widgets.o: vendor/imgui/imgui_widgets.cpp.o
@@ -540,7 +540,7 @@ vendor/imgui/imgui_widgets.o: vendor/imgui/imgui_widgets.cpp.o
 
 # target to build an object file
 vendor/imgui/imgui_widgets.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.o
 .PHONY : vendor/imgui/imgui_widgets.cpp.o
 
 vendor/imgui/imgui_widgets.i: vendor/imgui/imgui_widgets.cpp.i
@@ -548,7 +548,7 @@ vendor/imgui/imgui_widgets.i: vendor/imgui/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 vendor/imgui/imgui_widgets.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.i
 .PHONY : vendor/imgui/imgui_widgets.cpp.i
 
 vendor/imgui/imgui_widgets.s: vendor/imgui/imgui_widgets.cpp.s
@@ -556,7 +556,7 @@ vendor/imgui/imgui_widgets.s: vendor/imgui/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 vendor/imgui/imgui_widgets.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/imgui_widgets.cpp.s
 .PHONY : vendor/imgui/imgui_widgets.cpp.s
 
 vendor/imgui/misc/cpp/imgui_stdlib.o: vendor/imgui/misc/cpp/imgui_stdlib.cpp.o
@@ -564,7 +564,7 @@ vendor/imgui/misc/cpp/imgui_stdlib.o: vendor/imgui/misc/cpp/imgui_stdlib.cpp.o
 
 # target to build an object file
 vendor/imgui/misc/cpp/imgui_stdlib.cpp.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.o
 .PHONY : vendor/imgui/misc/cpp/imgui_stdlib.cpp.o
 
 vendor/imgui/misc/cpp/imgui_stdlib.i: vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
@@ -572,7 +572,7 @@ vendor/imgui/misc/cpp/imgui_stdlib.i: vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
 
 # target to preprocess a source file
 vendor/imgui/misc/cpp/imgui_stdlib.cpp.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
 .PHONY : vendor/imgui/misc/cpp/imgui_stdlib.cpp.i
 
 vendor/imgui/misc/cpp/imgui_stdlib.s: vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
@@ -580,7 +580,7 @@ vendor/imgui/misc/cpp/imgui_stdlib.s: vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
 
 # target to generate assembly for a file
 vendor/imgui/misc/cpp/imgui_stdlib.cpp.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
 .PHONY : vendor/imgui/misc/cpp/imgui_stdlib.cpp.s
 
 vendor/tinyfiledialogs/tinyfiledialogs.o: vendor/tinyfiledialogs/tinyfiledialogs.c.o
@@ -588,7 +588,7 @@ vendor/tinyfiledialogs/tinyfiledialogs.o: vendor/tinyfiledialogs/tinyfiledialogs
 
 # target to build an object file
 vendor/tinyfiledialogs/tinyfiledialogs.c.o:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.o
 .PHONY : vendor/tinyfiledialogs/tinyfiledialogs.c.o
 
 vendor/tinyfiledialogs/tinyfiledialogs.i: vendor/tinyfiledialogs/tinyfiledialogs.c.i
@@ -596,7 +596,7 @@ vendor/tinyfiledialogs/tinyfiledialogs.i: vendor/tinyfiledialogs/tinyfiledialogs
 
 # target to preprocess a source file
 vendor/tinyfiledialogs/tinyfiledialogs.c.i:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.i
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.i
 .PHONY : vendor/tinyfiledialogs/tinyfiledialogs.c.i
 
 vendor/tinyfiledialogs/tinyfiledialogs.s: vendor/tinyfiledialogs/tinyfiledialogs.c.s
@@ -604,7 +604,7 @@ vendor/tinyfiledialogs/tinyfiledialogs.s: vendor/tinyfiledialogs/tinyfiledialogs
 
 # target to generate assembly for a file
 vendor/tinyfiledialogs/tinyfiledialogs.c.s:
-	cd /home/jdw/dev/potassium-engine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.s
+	cd /home/jdw/dev/PotassiumEngine/build && $(MAKE) $(MAKESILENT) -f Engine/CMakeFiles/potassium.dir/build.make Engine/CMakeFiles/potassium.dir/vendor/tinyfiledialogs/tinyfiledialogs.c.s
 .PHONY : vendor/tinyfiledialogs/tinyfiledialogs.c.s
 
 # Help Target
@@ -685,6 +685,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jdw/dev/potassium-engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jdw/dev/PotassiumEngine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
